@@ -8,16 +8,16 @@ body{
 
 h1{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:2.441em;
+	font-size:3.157em;
 	font-weight: 700;
-	margin-top: 1em;
+	margin-top: .5em;
 	margin-bottom:0.1em;
 	color: #232323;
 }
 
 h2{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.953em;
+	font-size:2.396em;
 	font-weight: 400;
 	margin-top: 0em;
 	margin-bottom:0em;
@@ -26,17 +26,17 @@ h2{
 
 h3{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.563em;
+	font-size:1.777em;
 	font-weight: 400;
 	color: #232323;
-	margin-top: 3px;
+	margin-top: 20px;
 	margin-bottom: 3px;
 
 }
 
 h4{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.25em;
+	font-size:1.333em;
 	font-weight: 400;
 	color: #232323;
 	margin-top: 3px;
@@ -59,24 +59,24 @@ li{
 
 .container {
 	margin: auto;
-	max-width: 650px;
+	max-width: 675px;
 	min-width: 300px;
 	padding-top: 50px;
 
 }
 
 .img_hero {
-	background-image:url("images/km.jpg");
-	background-position: 31.5% 0%;	
+	background-image:url("images/km_large.jpg");
+	background-position: 31.75% 0%;	
 	background-repeat: no-repeat;
 }
 
 .shape {
-	width: 200px;
+	width: 225px;
 	height: 39px;
 	background-color: #232323;
-	top: 33%;
-	left: 27.05%;
+	top: 37%;
+	left: 26.75%;
 	position: absolute;
 }
 
@@ -88,13 +88,13 @@ li{
 
 .intro {
 	background-color: #ffd633; 
-	padding-top: 1%;
-	padding-bottom: 6%;
+	padding-top: 2%;
+	padding-bottom: 4%;
 }
 
 .intro_text{
-	margin-left: 45%;
-	max-width: 400px;	
+	margin-left: 46%;
+	max-width: 375px;	
 }
 
 .item {
