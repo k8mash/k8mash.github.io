@@ -71,11 +71,11 @@ li{
 }
 
 .shape {
-	width: 225px;
+	width: 250px;
 	height: 39px;
 	background-color: #ffd633;
-	top: 37%;
-	left: 26.75%;
+	top: 315px;
+	left: 375px;
 	position: absolute;
 }
 
@@ -92,7 +92,7 @@ li{
 }
 
 .intro_text{
-	margin-left: 46%;
+	margin-left: 48%;
 	max-width: 375px;	
 }
 
@@ -126,6 +126,12 @@ a:active {
     font-family: 'Open Sans', sans-serif;
 }
 
+.footer {
+	background-color:#232323;
+	height: 40px;
+	margin-top: 5%;
+}
+
 @media (max-width: 550px) {
 
 	body{
@@ -155,7 +161,7 @@ a:active {
 	.container {
 	margin: auto;
 	max-width: 100%;
-	padding-top: 25px;
+	padding-top: 20px;
 }
 	.img_hero {
 	background-image:url("images/km_500.jpg");
