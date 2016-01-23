@@ -137,6 +137,7 @@ a:active {
 }
 	h2{
 	font-size:1.953em;
+	margin-top: 20px;
 }
 	h3{
 	font-size:1.563em;
@@ -147,7 +148,7 @@ a:active {
 }
 	p{
 	margin-top: 8px;
-	margin-bottom: 4px;
+	margin-bottom: 16px;
 }
 
 	.container {
@@ -157,7 +158,7 @@ a:active {
 }
 	.img_hero {
 	background-image:url("images/km_500.jpg");
-	background-position: 50% 86%;
+	background-position: 50% 74%;
 	width: 100%;
 }
 
@@ -168,13 +169,13 @@ a:active {
 }
 	.shape {
 	width: 500px;
-	top: 91%;
+	top: 95%;
 	left: 4.5%;
 	position: absolute;
 }
 	.intro {
 	max-width: 100%;
-	padding-bottom: 55%;
+	padding-bottom: 65%;
 
 }
 	.intro_text{
