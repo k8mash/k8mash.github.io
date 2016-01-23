@@ -1,0 +1,142 @@
+
+body{
+	font-size: 16px;
+	margin: 0;
+
+}
+
+
+h1{
+	font-family: "acumin-pro-condensed",sans-serif;
+	font-size:2.441em;
+	font-weight: 700;
+	margin-top: 1em;
+	margin-bottom:0.1em;
+	color: #232323;
+}
+
+h2{
+	font-family: "acumin-pro-condensed",sans-serif;
+	font-size:1.953em;
+	font-weight: 400;
+	margin-top: 0em;
+	margin-bottom:0em;
+	color: #232323;
+}
+
+h3{
+	font-family: "acumin-pro-condensed",sans-serif;
+	font-size:1.563em;
+	font-weight: 400;
+	color: #232323;
+	margin-top: 3px;
+	margin-bottom: 3px;
+
+}
+
+h4{
+	font-family: "acumin-pro-condensed",sans-serif;
+	font-size:1.25em;
+	font-weight: 400;
+	color: #232323;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	color: #232323;
+	margin-top: 8px;
+}
+
+li{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	color: #232323;
+	list-style-type: none;
+}
+
+.container {
+	margin: auto;
+	max-width: 650px;
+	min-width: 300px;
+	padding-top: 50px;
+
+}
+
+.img_hero {
+	background-image:url("images/km.jpg");
+	background-position: 30% 0%;	
+	background-repeat: no-repeat;
+}
+
+.shape {
+	width: 200px;
+	height: 39px;
+	background-color: #232323;
+	top: 33%;
+	left: 25.75%;
+	position: absolute;
+}
+
+.nav {
+	background-color:#232323;
+	height: 40px;
+
+}
+
+.intro {
+	background-color: #ffd633; 
+	padding-top: 1%;
+	padding-bottom: 6%;
+}
+
+.intro_text{
+	margin-left: 45%;
+	max-width: 400px;	
+}
+
+.item {
+	padding-top: 20px;
+
+}
+
+
+a:link{
+	text-decoration: underline;
+	color: #232323;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a:visited {
+    text-decoration: none;
+    color:#000000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:active {
+    text-decoration: underline;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 550px) {
+	.container {
+	margin-left: 5%;
+	max-width: 800px;
+}
+	.img_hero {
+	background-position: 10px 0px;	
+}
+
+.intro {
+	margin-left: 15%;
+	max-width: 400px;
+}
