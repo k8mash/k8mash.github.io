@@ -65,18 +65,9 @@ li{
 }
 
 .img_hero {
-	background-image:url("images/km_large.jpg");
+	background-image:url("images/km_large.png");
 	background-position: 31.75% 0%;	
 	background-repeat: no-repeat;
-}
-
-.shape {
-	width: 250px;
-	height: 39px;
-	background-color: #ffd633;
-	top: 315px;
-	left: 375px;
-	position: absolute;
 }
 
 .nav {
@@ -164,7 +155,7 @@ a:active {
 	padding-top: 20px;
 }
 	.img_hero {
-	background-image:url("images/km_500.jpg");
+	background-image:url("images/km_mobile.png");
 	background-position: 50% 74%;
 	width: 100%;
 }
@@ -174,12 +165,7 @@ a:active {
 	max-width: 100%;
 
 }
-	.shape {
-	width: 500px;
-	top: 95%;
-	left: 4.5%;
-	position: absolute;
-}
+
 	.intro {
 	max-width: 100%;
 	padding-bottom: 65%;
