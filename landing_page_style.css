@@ -2,12 +2,13 @@
 body{
 	font-size: 15px;
 	margin: 0;
+	text-rendering: optimizeLegibility;
 }
 
 h1{
 	font-family: "acumin-pro-condensed",sans-serif;
 	font-weight: 700;
-	font-size:2.441em;
+	font-size:3.052em;
 	margin-top: .5em;
 	margin-bottom: 1px;
 	color: #ffd633;
@@ -56,6 +57,10 @@ li{
 	list-style-type: none;
 }
 
+.header{
+	font-weight: 700;
+}
+
 .container {
 	margin: auto;
 	max-width: 85%;
@@ -64,7 +69,7 @@ li{
 
 .desktop_image{
 	display: block;
-	margin-top: -500px;
+	margin-top: -525px;
 	max-width: 150px;
 	height: auto;
 }
@@ -87,7 +92,7 @@ li{
 
 .intro_text{
 	margin-left: 7%;
-	margin-top: 200px;
+	margin-top: 225px;
 	max-width: 85%;	
 }
 
@@ -133,26 +138,12 @@ a:active {
 @media (min-width: 550px) and (max-width: 649px) {
 
 body{
-	font-size: 15px;
+	font-size: 16px;
 }
 
 h1{
-	font-size:2.441em;
 	margin-top: .5em;
 	margin-bottom: 1px;
-}
-
-h2{
-	font-size:1.953em;
-}
-
-h3{
-	font-size:1.563em;
-	padding-top: 15px;
-}
-	
-h4{
-	font-size:1.25em;
 }
 	
 p{
@@ -270,23 +261,6 @@ body{
 	font-size: 17px;
 }
 
-h1{
-	font-size:3.157em;
-}
-
-h2{
-	font-size:2.396em;
-}
-
-h3{
-	font-size:1.777em;
-	padding-top: 15px;
-}
-	
-h4{
-	font-size:1.33em;
-}
-	
 p{
 	margin-top: 8px;
 	margin-bottom: 16px;
