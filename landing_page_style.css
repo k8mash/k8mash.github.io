@@ -1,6 +1,6 @@
 
 body{
-	font-size: 16px;
+	font-size: 17px;
 	margin: 0;
 	text-rendering: optimizeLegibility;
 }
@@ -8,14 +8,14 @@ body{
 h1{
 	font-family: "acumin-pro-condensed",sans-serif;
 	font-weight: 700;
-	font-size: 4.768em;
+	font-size: 4.209em;
 	margin-bottom: 0px;
 	color: #ffd633;
 }
 
 h2{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.953em;
+	font-size:2.369em;
 	font-weight: 400;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -24,7 +24,7 @@ h2{
 
 h3{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.563em;
+	font-size:1.777em;
 	padding-top: 15px;
 	font-weight: 400;
 	color: #232323;
@@ -34,7 +34,7 @@ h3{
 
 h4{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.25em;
+	font-size:1.33em;
 	font-weight: 400;
 	color: #232323;
 	margin-top: 1px;
@@ -71,7 +71,7 @@ li{
 	display: block;
 	max-width: 150px;
 	height: auto;
-	margin-top: -28px;
+	margin-top: -26px;
 }
 
 .nav {
@@ -187,7 +187,7 @@ p{
 @media (min-width: 700px) and (max-width: 874px){
 
 body{
-	font-size: 17px;
+	font-size: 18px;
 }
 
 .container {
@@ -229,7 +229,7 @@ body{
 @media (min-width: 875px) and (max-width: 1124px) {
 
 body{
-	font-size: 17px;
+	font-size: 18px;
 }
 
 .container {
@@ -270,7 +270,7 @@ body{
 
 
 body{
-	font-size: 17px;
+	font-size: 18px;
 }
 
 p{
