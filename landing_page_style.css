@@ -181,6 +181,10 @@ h1{
 	font-size: 4.768em;
 }
 
+body{
+	font-size: 17px;
+}
+
 .container {
 	margin: auto;
 	max-width: 95%;
