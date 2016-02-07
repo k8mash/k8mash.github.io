@@ -7,24 +7,16 @@ body{
 
 h1{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-weight: 700;
-	font-size: 3em;
-	margin-bottom: 0px;
-	color: #ffd633;
+	font-size:1.99em;
+	font-weight: 400;
+	margin-top: 0px;
+	margin-bottom: 5%;
+	color: #232323;
 }
 
 h2{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:2.5em;
-	font-weight: 400;
-	margin-top: 0px;
-	margin-bottom: 2%;
-	color: #232323;
-}
-
-h3{
-	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:2em;
+	font-size:1.66em;
 	padding-top: 15px;
 	font-weight: 400;
 	color: #232323;
@@ -32,9 +24,9 @@ h3{
 	margin-bottom: 3px;
 }
 
-h4{
+h3{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.5em;
+	font-size:1.33em;
 	font-weight: 400;
 	color: #232323;
 	margin-top: 1px;
@@ -58,6 +50,11 @@ li{
 
 .header{
 	font-weight: 700;
+}
+
+.yellow_header{
+	font-weight: 700;
+	color: #ffd633;
 }
 
 .container {
@@ -102,7 +99,7 @@ li{
 }
 
 a:link{
-	text-decoration: underline;
+	font-weight: 800;
 	color: #232323;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -114,13 +111,11 @@ a:visited {
 }
 
 a:hover {
-    text-decoration: underline;
     font-weight: 800;
     font-family: 'Open Sans', sans-serif;
 }
 
 a:active {
-    text-decoration: underline;
     font-weight: 800;
     font-family: 'Open Sans', sans-serif;
 }
