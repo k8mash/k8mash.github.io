@@ -7,23 +7,32 @@ body{
 
 h1{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.99em;
-	font-weight: 400;
-	margin-top: 0px;
-	color: #232323;
+	font-size:2.33em;
+	font-weight: 700;
+	margin-top: 10%;
+	margin-bottom:-10%;
+	color: #ffd633;
 }
 
 h2{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.66em;
+	font-size:1.99em;
 	padding-top: 15px;
 	font-weight: 400;
 	color: #232323;
-	margin-top: 20px;
 	margin-bottom: 3px;
 }
 
 h3{
+	font-family: "acumin-pro-condensed",sans-serif;
+	font-size:1.66em;
+	font-weight: 400;
+	color: #232323;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+h4{
 	font-family: "acumin-pro-condensed",sans-serif;
 	font-size:1.33em;
 	font-weight: 400;
@@ -49,11 +58,6 @@ li{
 
 .header{
 	font-weight: 700;
-}
-
-.yellow_header{
-	font-weight: 700;
-	color: #ffd633;
 }
 
 .container {
