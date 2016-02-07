@@ -216,6 +216,11 @@ body{
 }
 @media (min-width: 875px) and (max-width: 1124px) {
 
+h1{
+	font-size: 4.768em;
+	margin-bottom: -10px;
+}
+
 body{
 	font-size: 17px;
 }
