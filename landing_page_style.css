@@ -17,7 +17,6 @@ h1{
 h2{
 	font-family: "acumin-pro-condensed",sans-serif;
 	font-size:1.99em;
-	padding-top: 15px;
 	font-weight: 400;
 	color: #232323;
 	margin-bottom: 3px;
@@ -38,7 +37,7 @@ h4{
 	font-weight: 400;
 	color: #232323;
 	margin-top: 1px;
-	margin-bottom: 1px;
+	margin-bottom: -10px;
 }
 
 p{
@@ -281,7 +280,7 @@ p{
 .desktop_image{
 	display: block;
 	float: left;
-	margin-top: -60px;
+	margin-top: -200px;
 	max-width: 255px;
 	height: auto;
 	margin-right: 3%;
@@ -292,7 +291,7 @@ p{
 }
 
 .introbackground{
-	padding-top: 40px;
+	padding-top: 20px;
 }
 
 .intro_text{
