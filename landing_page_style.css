@@ -64,6 +64,7 @@ li{
 	margin: auto;
 	max-width: 85%;
 	padding-top: 2%;
+	padding-bottom: 9%;
 }
 
 .desktop_image{
@@ -86,7 +87,7 @@ li{
 .introbackground{
 	background-color: #f7f7f7; 
 	padding-top: 20px;
-	padding-bottom: 50px;
+	padding-bottom: 5%;
 }
 
 .intro_text{
@@ -98,7 +99,6 @@ li{
 }
 
 .resume{
-	padding-top: 20px;
 
 }
 
@@ -124,6 +124,16 @@ a:active {
     text-decoration: underline;
     font-weight: 800;
     font-family: 'Open Sans', sans-serif;
+}
+
+.aboutbackground{
+	background-color: #ffd633; 
+	padding-top: 3%;
+	padding-bottom: 1%;
+
+}
+
+.about{
 }
 
 .footer {
@@ -189,6 +199,9 @@ body{
 	margin-left: 25px;
 }
 
+.about{
+	margin-left: 30px;
+}
 .desktop_image{
 	display: block;
 	float: left;
@@ -201,6 +214,10 @@ body{
 .resume{
 	max-width: 90%;
 	margin: auto;
+}
+
+.about{
+	max-width: 90%;
 }
 
 .intro_text{
@@ -233,9 +250,13 @@ body{
 	max-width: 100%;
 }
 
+.about{
+	max-width: 90%;
+}
+
 .introbackground{
 	padding-top: 40px;
-	padding-bottom: 70px;
+	padding-bottom: 8%;
 }
 
 .intro_text{
@@ -260,7 +281,7 @@ p{
 }
 
 .container {
-	max-width: 57%;
+	max-width: 55%;
 	margin: auto;
 }
 
@@ -279,7 +300,7 @@ p{
 
 .introbackground{
 	padding-top: 40px;
-	padding-bottom: 70px;
+	padding-bottom: 1%;
 }
 
 .intro_text{
