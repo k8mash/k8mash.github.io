@@ -8,7 +8,7 @@ body{
 h1{
 	font-family: "acumin-pro-condensed",sans-serif;
 	font-weight: 700;
-	font-size: 2.66em;
+	font-size: 2.33em;
 	margin-bottom: 0px;
 	color: #ffd633;
 }
@@ -128,7 +128,7 @@ a:active {
 .aboutbackground{
 	background-color: #ffd633; 
 	padding-top: 3%;
-	padding-bottom: 1%;
+	padding-bottom: 5%;
 
 }
 
@@ -138,7 +138,6 @@ a:active {
 .footer {
 	background-color:#232323;
 	height: 40px;
-	margin-top: 5%;
 }
 
 
@@ -226,7 +225,7 @@ body{
 }
 	
 }
-@media (min-width: 875px) and (max-width: 1124px) {
+@media (min-width: 875px) and (max-width: 1174px) {
 
 body{
 	font-size: 18px;
@@ -263,10 +262,9 @@ body{
 	margin-top: -2%;
 
 }
-
 }
 
-@media (min-width: 1125px) {
+@media (min-width: 1175px) {
 
 
 body{
