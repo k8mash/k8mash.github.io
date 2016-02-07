@@ -9,8 +9,7 @@ h1{
 	font-family: "acumin-pro-condensed",sans-serif;
 	font-weight: 700;
 	font-size: 2.441em;
-	margin-top: .5em;
-	margin-bottom: 1px;
+	margin-bottom: 0px;
 	color: #ffd633;
 }
 
@@ -18,8 +17,8 @@ h2{
 	font-family: "acumin-pro-condensed",sans-serif;
 	font-size:1.953em;
 	font-weight: 400;
-	margin-top: 0em;
-	margin-bottom:0em;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	color: #232323;
 }
 
@@ -131,6 +130,10 @@ a:active {
 	background-color:#232323;
 	height: 40px;
 	margin-top: 5%;
+}
+
+.links{
+
 }
 
 @media (min-width: 600px) and (max-width: 699px) {
