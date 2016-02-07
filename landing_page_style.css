@@ -8,14 +8,14 @@ body{
 h1{
 	font-family: "acumin-pro-condensed",sans-serif;
 	font-weight: 700;
-	font-size: 3em;
+	font-size: 2.66em;
 	margin-bottom: 0px;
 	color: #ffd633;
 }
 
 h2{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:2em;
+	font-size:1.999em;
 	font-weight: 400;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -24,7 +24,7 @@ h2{
 
 h3{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.75em;
+	font-size:1.66em;
 	padding-top: 15px;
 	font-weight: 400;
 	color: #232323;
@@ -34,7 +34,7 @@ h3{
 
 h4{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.5em;
+	font-size:1.33em;
 	font-weight: 400;
 	color: #232323;
 	margin-top: 1px;
