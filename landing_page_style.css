@@ -8,7 +8,7 @@ body{
 h1{
 	font-family: "acumin-pro-condensed",sans-serif;
 	font-weight: 700;
-	font-size:3.052em;
+	font-size: 2.441em;
 	margin-top: .5em;
 	margin-bottom: 1px;
 	color: #ffd633;
@@ -133,12 +133,8 @@ a:active {
 	margin-top: 5%;
 }
 
-@media (min-width: 550px) and (max-width: 649px) {
+@media (min-width: 575px) and (max-width: 699px) {
 
-
-h1{
-	font-size:2.441em;
-}
 	
 p{
 	margin-top: 8px;
@@ -179,7 +175,11 @@ p{
 
 }
 }
-@media (min-width: 650px) and (max-width: 824px){
+@media (min-width: 700px) and (max-width: 874px){
+
+h1{
+	font-size: 3.052em;
+}
 
 .container {
 	margin: auto;
@@ -210,10 +210,14 @@ p{
 }
 	
 }
-@media (min-width: 825px) and (max-width: 1099px) {
+@media (min-width: 875px) and (max-width: 1124px) {
+
+body{
+	font-size: 17px;
+}
 
 .container {
-	max-width: 80%;
+	max-width: 70%;
 	margin: auto;
 }
 
@@ -235,7 +239,7 @@ p{
 }
 
 .intro_text{
-	margin-left: 40%;
+	margin-left: 46%;
 	max-width: 60%;	
 	margin-top: -2%;
 
@@ -243,11 +247,8 @@ p{
 
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1125px) {
 
-body{
-	font-size: 17px;
-}
 
 p{
 	margin-top: 8px;
