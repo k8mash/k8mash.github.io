@@ -249,6 +249,10 @@ body{
 
 @media (min-width: 1125px) {
 
+h1{
+	font-size: 4.768em;
+}
+
 
 p{
 	margin-top: 8px;
