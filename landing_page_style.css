@@ -28,8 +28,8 @@ h3{
 	font-size:1.66em;
 	font-weight: 400;
 	color: #232323;
-	margin-top: 1px;
-	margin-bottom: -5%;
+	margin-top: 5%;
+	margin-bottom: 1%;
 }
 
 h4{
@@ -63,7 +63,7 @@ li{
 .container {
 	margin: auto;
 	max-width: 85%;
-	padding-top: 2%;
+	padding-top: 5%;
 	padding-bottom: 9%;
 }
 
@@ -97,9 +97,6 @@ li{
 	padding-top: 20px;
 }
 
-.resume{
-
-}
 
 a:link{
 	text-decoration: none;
@@ -124,6 +121,7 @@ a:active {
 	text-decoration: underline;
     font-weight: 800;
     font-family: 'Open Sans', sans-serif;
+    color:#ffd633;
 }
 
 .aboutbackground{
@@ -133,8 +131,6 @@ a:active {
 
 }
 
-.about{
-}
 
 .footer {
 	background-color:#232323;
