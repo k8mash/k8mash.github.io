@@ -41,12 +41,19 @@ h4{
 }
 
 p{
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
 	color: #232323;
-	font-weight: 300;
+	font-weight: 400;
 	margin-top: 8px;
 	margin-bottom: 18px;
+}
+
+li{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	color: #232323;
+	list-style-type: none;
 }
 
 .header{
@@ -95,25 +102,25 @@ a:link{
 	text-decoration: none;
 	font-weight: 600;
 	color: #232323;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 a:visited {
     text-decoration: none;
     color:#000000;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a:hover {
 	text-decoration: underline;
     font-weight: 600;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a:active {
 	text-decoration: underline;
     font-weight: 600;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color:#ffd633;
 }
 
