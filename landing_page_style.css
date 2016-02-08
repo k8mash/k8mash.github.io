@@ -188,7 +188,7 @@ body{
 
 .container {
 	margin: auto;
-	max-width: 95%;
+	max-width: 90%;
 	margin-right: 25px;
 	margin-left: 25px;
 	padding-top: 4%;
@@ -238,7 +238,7 @@ body{
 }
 
 .container {
-	max-width: 70%;
+	max-width: 65%;
 	margin: auto;
 	padding-top: 3%;
 	padding-bottom: 6%;
@@ -292,7 +292,7 @@ p{
 }
 
 .container {
-	max-width: 55%;
+	max-width: 50%;
 	margin: auto;
 	padding-top: 3%;
 	padding-bottom: 5%;
