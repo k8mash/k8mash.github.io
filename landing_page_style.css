@@ -136,7 +136,7 @@ a:active {
 }
 
 
-@media (min-width: 600px) and (max-width: 699px) {
+@media (min-width: 625px) and (max-width: 699px) {
 
 	
 p{
@@ -145,7 +145,7 @@ p{
 
 .container {
 	margin: auto;
-	max-width: 90%;
+	max-width: 80%;
 	padding-top: 5%;
 	padding-bottom: 8%;
 }
@@ -189,8 +189,6 @@ body{
 .container {
 	margin: auto;
 	max-width: 85%;
-	margin-right: 25px;
-	margin-left: 25px;
 	padding-top: 4%;
 	padding-bottom: 7%;
 }
@@ -224,7 +222,7 @@ body{
 }
 
 .intro_text{
-	margin-left: 45%;
+	margin-left: 48%;
 	max-width: 50%;	
 	margin-top: -3%;
 }
@@ -257,7 +255,7 @@ body{
 }
 
 .about{
-	max-width: 90%;
+	max-width: 100%;
 }
 
 .introbackground{
@@ -265,7 +263,7 @@ body{
 }
 
 .intro_text{
-	margin-left: 46%;
+	margin-left: 48%;
 	max-width: 60%;	
 	margin-top: -2%;
 
@@ -321,7 +319,7 @@ p{
 }
 
 .intro_text{
-	margin-left: 43%;
+	margin-left: 48%;
 	max-width: 60%;
 	margin-top: -5%;}
 }
