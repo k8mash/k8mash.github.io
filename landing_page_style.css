@@ -45,7 +45,7 @@ p{
 	font-size: 1em;
 	color: #232323;
 	margin-top: 8px;
-	margin-bottom: 16px;
+	margin-bottom: 18px;
 }
 
 li{
@@ -70,7 +70,7 @@ li{
 	display: block;
 	max-width: 150px;
 	height: auto;
-	margin-top: -26px;
+	margin-top: -35px;
 }
 
 .nav {
@@ -142,7 +142,7 @@ a:active {
 	
 p{
 	margin-top: 8px;
-	margin-bottom: 16px;
+	margin-bottom: 18px;
 }
 
 .container {
@@ -183,6 +183,9 @@ p{
 
 body{
 	font-size: 16px;
+	margin-top: 8px;
+	margin-bottom: 19px;
+}
 }
 
 .container {
@@ -225,6 +228,8 @@ body{
 
 body{
 	font-size: 16px;
+	margin-top: 8px;
+	margin-bottom: 19px;
 }
 
 .container {
@@ -256,6 +261,12 @@ body{
 	margin-left: 46%;
 	max-width: 60%;	
 	margin-top: -2%;
+}
+
+.aboutbackground{
+	background-color: #ffd633; 
+	padding-top: 1%;
+	padding-bottom: 1%;
 
 }
 }
@@ -264,7 +275,9 @@ body{
 
 
 body{
-	font-size: 16px;
+	font-size: 17px;
+	margin-top: 8px;
+	margin-bottom: 21px;
 }
 
 p{
@@ -280,7 +293,7 @@ p{
 .desktop_image{
 	display: block;
 	float: left;
-	margin-top: -200px;
+	margin-top: -79px;
 	max-width: 255px;
 	height: auto;
 	margin-right: 3%;
@@ -299,3 +312,12 @@ p{
 	max-width: 60%;
 	margin-top: -5%;}
 }
+
+.aboutbackground{
+	background-color: #ffd633; 
+	padding-top: 1%;
+	padding-bottom: 1%;
+
+}
+}
+
