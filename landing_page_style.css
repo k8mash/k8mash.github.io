@@ -188,7 +188,7 @@ body{
 
 .container {
 	margin: auto;
-	max-width: 90%;
+	max-width: 85%;
 	margin-right: 25px;
 	margin-left: 25px;
 	padding-top: 4%;
@@ -233,7 +233,7 @@ body{
 @media (min-width: 875px) and (max-width: 1174px) {
 
 body{
-	font-size: 16px;
+	font-size: 16.5px;
 	margin-bottom: 20px;
 }
 
@@ -282,7 +282,7 @@ body{
 
 
 body{
-	font-size: 16px;
+	font-size: 16.5px;
 	margin-bottom: 20px;
 }
 
