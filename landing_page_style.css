@@ -62,15 +62,15 @@ li{
 .container {
 	margin: auto;
 	max-width: 85%;
-	padding-top: 5%;
-	padding-bottom: 9%;
+	padding-top: 7%;
+	padding-bottom: 7%;
 }
 
 .desktop_image{
 	display: block;
 	max-width: 150px;
 	height: auto;
-	margin-top: -35px;
+	margin-top: -40px;
 }
 
 .nav {
@@ -125,11 +125,9 @@ a:active {
 
 .aboutbackground{
 	background-color: #ffd633; 
-	padding-top: 3%;
-	padding-bottom: 5%;
-
+	padding-top: 1%;
+	padding-bottom: 6%;
 }
-
 
 .footer {
 	background-color:#232323;
@@ -141,14 +139,14 @@ a:active {
 
 	
 p{
-	margin-top: 8px;
 	margin-bottom: 18px;
 }
 
 .container {
 	margin: auto;
 	max-width: 90%;
-	padding-top: 20px;
+	padding-top: 5%;
+	padding-bottom: 8%;
 }
 
 .desktop_image{
@@ -174,26 +172,26 @@ p{
 	margin-top: -3%;
 
 }
-	
-.item {
-
+.aboutbackground{
+	padding-top: 0%;
+	padding-bottom: 2%;
 }
+	
 }
 @media (min-width: 700px) and (max-width: 874px){
 
 body{
 	font-size: 16px;
-	margin-top: 8px;
-	margin-bottom: 19px;
-}
+	margin-bottom: 20px;
 }
 
 .container {
 	margin: auto;
 	max-width: 95%;
-	padding-top: 20px;
 	margin-right: 25px;
 	margin-left: 25px;
+	padding-top: 4%;
+	padding-bottom: 7%;
 }
 
 .about{
@@ -215,6 +213,13 @@ body{
 
 .about{
 	max-width: 90%;
+	margin: auto;
+}
+
+.aboutbackground{
+	padding-top: 0%;
+	padding-bottom: 1%;
+
 }
 
 .intro_text{
@@ -228,13 +233,14 @@ body{
 
 body{
 	font-size: 16px;
-	margin-top: 8px;
-	margin-bottom: 19px;
+	margin-bottom: 20px;
 }
 
 .container {
 	max-width: 70%;
 	margin: auto;
+	padding-top: 3%;
+	padding-bottom: 6%;
 }
 
 .desktop_image{
@@ -261,22 +267,22 @@ body{
 	margin-left: 46%;
 	max-width: 60%;	
 	margin-top: -2%;
+
 }
 
 .aboutbackground{
-	background-color: #ffd633; 
 	padding-top: 1%;
-	padding-bottom: 1%;
-
+	padding-bottom: 2%;
 }
+
 }
 
 @media (min-width: 1175px) {
 
 
 body{
+	margin-top: 9px;
 	font-size: 17px;
-	margin-top: 8px;
 	margin-bottom: 21px;
 }
 
@@ -288,15 +294,22 @@ p{
 .container {
 	max-width: 55%;
 	margin: auto;
+	padding-top: 3%;
+	padding-bottom: 5%;
 }
 
 .desktop_image{
 	display: block;
 	float: left;
-	margin-top: -79px;
+	margin-top: -55px;
 	max-width: 255px;
 	height: auto;
 	margin-right: 3%;
+}
+
+.aboutbackground{
+	padding-top: 2%;
+	padding-bottom: 1%;
 }
 
 .resume{
@@ -312,12 +325,4 @@ p{
 	max-width: 60%;
 	margin-top: -5%;}
 }
-
-.aboutbackground{
-	background-color: #ffd633; 
-	padding-top: 1%;
-	padding-bottom: 1%;
-
 }
-}
-
