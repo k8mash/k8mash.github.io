@@ -158,6 +158,7 @@ a:active {
 
 .fa:hover {
 	color: #ffd633;
+}
 @media (min-width: 625px) and (max-width: 699px) {
 
 	
@@ -321,7 +322,7 @@ p{
 .desktop_image{
 	display: block;
 	float: left;
-	margin-top: -45px;
+	margin-top: -40px;
 	max-width: 255px;
 	height: auto;
 	margin-right: 3%;
