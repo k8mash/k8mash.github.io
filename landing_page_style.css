@@ -142,9 +142,8 @@ a:active {
 	padding-bottom: 6%;
 }
 
-.footer {
-	background-color:#232323;
-	height: 40px;
+.social_icons{
+	padding-left: 0px
 }
 
 .fa {
@@ -159,6 +158,12 @@ a:active {
 .fa:hover {
 	color: #ffd633;
 }
+
+.footer {
+	background-color:#232323;
+	height: 40px;
+}
+
 @media (min-width: 625px) and (max-width: 699px) {
 
 	
