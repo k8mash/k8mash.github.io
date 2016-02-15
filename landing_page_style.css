@@ -59,8 +59,8 @@ li{
 .header{
 	font-weight: 700;
 }
-
 .container {
+
 	margin: auto;
 	max-width: 85%;
 	padding-top: 7%;
@@ -125,7 +125,7 @@ a:active {
 }
 
 .about h3{
-	color: #ffd633;
+	color: #fff;
 }
 
 .about h4{
@@ -148,15 +148,16 @@ a:active {
 }
 
 .fa {
-	color: #ffd633;
+	color: #fff;
 	float: left;
 	margin-top: 20px;
 	margin-right: 25px;
 	margin-bottom: 30px;
 	margin-left: 0px;
-	padding-left: 0px;
 }
 
+.fa:hover {
+	color: #ffd633;
 @media (min-width: 625px) and (max-width: 699px) {
 
 	
