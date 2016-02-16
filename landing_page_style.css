@@ -59,6 +59,7 @@ li{
 .header{
 	font-weight: 700;
 }
+
 .container {
 
 	margin: auto;
@@ -216,14 +217,14 @@ a:active {
 }
 
 .footer {
-	background-color: #232323;
-	height: 45px;
+	background-color: #fff;
+	height: 40px;
 	padding-top: 1%;
 }
 
 .footer p{
-	color: #fff;
-	padding-left: 80px;
+	color: #232323;
+	padding-left: 7%;
 }
 
 @media (min-width: 625px) and (max-width: 699px) {
