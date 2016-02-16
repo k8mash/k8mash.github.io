@@ -71,7 +71,7 @@ li{
 	display: block;
 	max-width: 150px;
 	height: auto;
-	margin-top: -40px;
+	margin-top: 15px;
 }
 
 .nav {
@@ -269,10 +269,9 @@ body{
 .desktop_image{
 	display: block;
 	float: left;
-	margin-left: 5%;
 	max-width: 225px;
 	height: auto;
-	margin-top: -40px;
+	margin-top: -5px;
 }
 
 .resume{
@@ -330,6 +329,7 @@ body{
 
 .introbackground{
 	padding-top: 40px;
+	padding-bottom: 10px;
 }
 
 .intro_text{
@@ -363,7 +363,7 @@ p{
 	max-width: 43%;
 	margin: auto;
 	padding-top: 2%;
-	padding-bottom: 3%;
+	padding-bottom: 8%;
 }
 
 .desktop_image{
@@ -391,6 +391,6 @@ p{
 .intro_text{
 	margin-left: 48%;
 	max-width: 60%;
-	margin-top: -5%;}
+	margin-top: 1%;}
 }
 }
