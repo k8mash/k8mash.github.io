@@ -1,62 +1,4 @@
 
-body{
-	font-size: 16px;
-	margin: 0;
-	text-rendering: optimizeLegibility;
-}
-
-h1{
-	font-family: "acumin-pro-condensed",sans-serif;
-	font-weight: 700;
-	font-size: 2.66em;
-	margin-bottom: 0px;
-	color: #ffd633;
-}
-
-h2{
-	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.999em;
-	font-weight: 400;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	color: #232323;
-}
-
-h3{
-	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.66em;
-	padding-top: 15px;
-	font-weight: 400;
-	color: #232323;
-	margin-top: 20px;
-	margin-bottom: 3px;
-}
-
-h4{
-	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.33em;
-	font-weight: 400;
-	color: #232323;
-	margin-top: 1px;
-	margin-bottom: 1px;
-}
-
-p{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1em;
-	color: #232323;
-	margin-top: 8px;
-	margin-bottom: 30px;
-}
-
-
-li{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1em;
-	color: #232323;
-	list-style-type: none;
-}
-
 .project{
 	max-width: 100%;
 	padding-top: 5%;
@@ -155,7 +97,6 @@ p{
 .project{
 	max-width: 50%;
 	padding-top: 10%;
-	margin-left: 6%;
 }
 
 .project_image{

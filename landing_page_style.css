@@ -64,14 +64,14 @@ li{
 	margin: auto;
 	max-width: 85%;
 	padding-top: 7%;
-	padding-bottom: 7%;
+	padding-bottom: 8%;
 }
 
 .desktop_image{
 	display: block;
 	max-width: 150px;
 	height: auto;
-	margin-top: 15px;
+	margin-top: 0px;
 }
 
 .nav {
@@ -218,7 +218,7 @@ p{
 	margin: auto;
 	max-width: 80%;
 	padding-top: 5%;
-	padding-bottom: 8%;
+	padding-bottom: 9%;
 }
 
 .desktop_image{
@@ -227,10 +227,6 @@ p{
 	max-width: 200px;
 	height: auto;
 	margin-top: -35px;
-}
-	
-.resume{
-	max-width: 100%;
 }
 
 .intro {
@@ -261,7 +257,7 @@ body{
 	margin: auto;
 	max-width: 85%;
 	padding-top: 4%;
-	padding-bottom: 7%;
+	padding-bottom: 9%;
 }
 
 .about{
@@ -275,10 +271,6 @@ body{
 	margin-top: -5px;
 }
 
-.resume{
-	margin: auto;
-}
-
 .about{
 	max-width: 100%;
 	margin: auto;
@@ -287,7 +279,6 @@ body{
 .aboutbackground{
 	padding-top: 0%;
 	padding-bottom: 1%;
-
 }
 
 .intro_text{
@@ -308,20 +299,17 @@ body{
 	max-width: 65%;
 	margin: auto;
 	padding-top: 3%;
-	padding-bottom: 6%;
+	padding-bottom: 8%;
 }
 
 .desktop_image{
 	display: block;
 	float: left;
-	margin-top: -56px;
+	margin-top: -45px;
 	max-width: 250px;
 	height: auto;
 }
 
-.resume{
-	max-width: 100%;
-}
 
 .about{
 	max-width: 100%;
@@ -363,13 +351,13 @@ p{
 	max-width: 43%;
 	margin: auto;
 	padding-top: 2%;
-	padding-bottom: 5%;
+	padding-bottom: 8%;
 }
 
 .desktop_image{
 	display: block;
 	float: left;
-	margin-top: 10px;
+	margin-top: 0px;
 	max-width: 255px;
 	height: auto;
 	margin-right: 3%;
@@ -378,10 +366,6 @@ p{
 .aboutbackground{
 	padding-top: 0%;
 	padding-bottom: 2%;
-}
-
-.resume{
-	max-width: 100%;
 }
 
 .introbackground{
