@@ -1,4 +1,12 @@
 
+.container_portfolio {
+
+	margin: auto;
+	max-width: 85%;
+	padding-top: 7%;
+	padding-bottom: 5%;
+}
+
 .project{
 	max-width: 100%;
 	padding-top: 5%;
@@ -67,6 +75,13 @@ p{
 	margin-bottom: 35px;
 }
 
+.container_portfolio {
+	margin: auto;
+	max-width: 80%;
+	padding-top: 5%;
+	padding-bottom: 9%;
+}
+
 .projects{
 	max-width: 100%;
 }
@@ -77,6 +92,13 @@ p{
 p{
 	margin-top: 8px;
 	margin-bottom: 30px;
+}
+
+.container_portfolio {
+	margin: auto;
+	max-width: 85%;
+	padding-top: 4%;
+	padding-bottom: 7%;
 }
 
 .project{
@@ -102,6 +124,14 @@ p{
 	margin-bottom: 30px;
 }
 
+.container_portfolio{
+	max-width: 65%;
+	margin: auto;
+	padding-top: 3%;
+	padding-bottom: 5%;
+}
+
+
 .project{
 	max-width: 50%;
 	padding-top: 10%;
@@ -125,7 +155,7 @@ p{
 	margin-bottom: 30px;
 }
 
-.container {
+.container_portfolio {
 	max-width: 50%;
 	margin: auto;
 }

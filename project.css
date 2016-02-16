@@ -60,7 +60,7 @@ li{
 	font-weight: 700;
 }
 
-.container {
+.container_project {
 
 	margin: auto;
 	max-width: 85%;
@@ -234,7 +234,7 @@ p{
 	margin-bottom: 18px;
 }
 
-.container {
+.container_project{
 	margin: auto;
 	max-width: 80%;
 	padding-top: 5%;
@@ -269,7 +269,7 @@ body{
 	margin-bottom: 20px;
 }
 
-.container {
+.container_project {
 	margin: auto;
 	max-width: 85%;
 	padding-top: 4%;
@@ -311,7 +311,7 @@ body{
 	margin-bottom: 20px;
 }
 
-.container {
+.container_project {
 	max-width: 65%;
 	margin: auto;
 	padding-top: 3%;
@@ -361,8 +361,8 @@ p{
 	margin-bottom: 16px;
 }
 
-.container {
-	max-width: 43%;
+.container_project {
+	max-width: 57%;
 	margin: auto;
 	padding-top: 2%;
 	padding-bottom: 4%;
