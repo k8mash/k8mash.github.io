@@ -100,6 +100,12 @@ li{
 .nav {
 	background-color:#232323;
 	height: 40px;
+ 	position: fixed;
+ 	top: 0;
+ 	width: 100%;
+ 	font-family: 'Lato', sans-serif;
+ 	font-weight: 700;
+ 	z-index: 289;
 }
 
 .intro {
