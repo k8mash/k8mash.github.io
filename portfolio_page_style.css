@@ -194,7 +194,6 @@ a:active {
 	background-color: #232323;
 	font-weight: 400;
 }
-
 .social_icons{
 	padding-left: 0px
 }
@@ -375,7 +374,7 @@ p{
 }
 
 .container {
-	max-width: 57%;
+	max-width: 55%;
 	margin: auto;
 }
 
@@ -403,7 +402,7 @@ p{
 
 .introbackground{
 	padding-top: 40px;
-	padding-bottom: 70px;
+	padding-bottom: 50px;
 }
 
 .intro_text{
