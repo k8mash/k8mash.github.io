@@ -115,10 +115,11 @@ li{
 
 .button:visited{
 	text-decoration: none;
-	color: #fff;
+	color: #232323;
+	background-color: #fff;
 	font-weight: 400;
+	border: solid #232323 2px;
 }
-
 .button:hover{
 	text-decoration: none;
 	color: #fff;
