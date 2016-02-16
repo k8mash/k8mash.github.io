@@ -147,24 +147,37 @@ a:active {
     color:#000;
 }
 
+.nav {
+	background-color: #232323;
+	height: 40px;
+ 	position: fixed;
+ 	top: 0;
+ 	width: 100%;
+ 	font-family: "acumin-pro-condensed",sans-serif;
+ 	font-weight: 400;
+ 	z-index: 289;
+}
+
+
 .nav a:link{
 	text-decoration: none;
-	color: #232323;
-	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-family: "acumin-pro-condensed",sans-serif;
+	font-weight: 400;
 }
 
 .nav a:hover {
 	text-decoration: underline;
-    font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
-    color:#232323;
+    font-weight: 400;
+    font-family: "acumin-pro-condensed",sans-serif;
+    color:#ff;
 }
 
 .nav a:active {
 	text-decoration: underline;
-    font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
-    color:#232323;
+    font-weight: 400;
+    font-family: "acumin-pro-condensed",sans-serif;
+    color:#ff;
 }
 
 .about h3{
@@ -203,8 +216,14 @@ a:active {
 }
 
 .footer {
-	background-color:#232323;
-	height: 55px;
+	background-color: #232323;
+	height: 45px;
+	padding-top: 1%;
+}
+
+.footer p{
+	color: #fff;
+	padding-left: 80px;
 }
 
 @media (min-width: 625px) and (max-width: 699px) {
@@ -242,7 +261,7 @@ p{
 }
 .aboutbackground{
 	padding-top: 0%;
-	padding-bottom: 2%;
+	padding-bottom: 0%;
 }
 	
 }
