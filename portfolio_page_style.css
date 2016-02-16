@@ -149,24 +149,31 @@ li{
 }
 
 a:link{
-	text-decoration: underline;
+	text-decoration: none;
+	font-weight: 600;
+	color: #232323;
 	font-family: 'Open Sans', sans-serif;
 }
 
 a:visited {
     text-decoration: none;
+    color:#000000;
     font-family: 'Open Sans', sans-serif;
 }
 
 a:hover {
-    text-decoration: none;
+	text-decoration: underline;
+    font-weight: 600;
     font-family: 'Open Sans', sans-serif;
 }
 
 a:active {
-    text-decoration: underline;
+	text-decoration: underline;
+    font-weight: 600;
     font-family: 'Open Sans', sans-serif;
+    color:#000;
 }
+
 
 .social_icons{
 	padding-left: 0px
