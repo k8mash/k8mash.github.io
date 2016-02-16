@@ -65,11 +65,12 @@ li{
 }
 
 .button {
-	margin-top: 22px;
+	margin-top: 16px;
   	padding: 12px;
   	color: #fff;
   	background-color: #232323;
   	text-decoration:none;
+  	border: solid #232323 2px;
 }
 
 .header{
@@ -116,7 +117,7 @@ li{
 .introbackground{
 	background-color: #f7f7f7; 
 	padding-top: 20px;
-	padding-bottom: 50px;
+	padding-bottom: 35px;
 
 }
 
@@ -180,13 +181,6 @@ a:active {
     color:#000;
 }
 
-.button:link{
-	text-decoration: none;
-	color: #232323;
-	background-color: #fff;
-	font-weight: 400;
-	border: solid #232323 2px;
-}
 
 .button:visited{
 	text-decoration: none;
