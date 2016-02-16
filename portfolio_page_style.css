@@ -46,7 +46,7 @@ p{
 	font-size: 1em;
 	color: #232323;
 	margin-top: 8px;
-	margin-bottom: 25px;
+	margin-bottom: 45px;
 }
 
 
@@ -105,14 +105,13 @@ li{
 .intro {
 	padding-top: 2%;
 	padding-bottom: 4%;
-
 }
-
 
 .introbackground{
 	background-color: #f7f7f7; 
 	padding-top: 20px;
 	padding-bottom: 50px;
+
 }
 
 .intro_text{
@@ -120,19 +119,18 @@ li{
 }
 
 .project_container{
-	margin-bottom: 60px;
+	margin-bottom: 75px;
 }
 
-.projects{
-}
 
 .project_image_a{
 	background-image: url("images/family.jpg");
-	max-width:50%;
+	max-width: 50%;
 }
 
 .aboutbackground{
 	background-color: #232323; 
+	margin-top: 8%;
 	padding-top: 1%;
 	padding-bottom: 10%;
 }
@@ -143,6 +141,7 @@ li{
 
 .about h4{
 	color: #ffd633;
+	margin-top: 5px;
 }
 
 .about p{
@@ -196,12 +195,12 @@ a:active {
 	
 p{
 	margin-top: 8px;
-	margin-bottom: 16px;
+	margin-bottom: 30px;
 }
 
 .container {
 	margin: auto;
-	max-width: 90%;
+	max-width: 85%;
 	padding-top: 20px;
 }
 
@@ -234,14 +233,18 @@ p{
 }
 @media (min-width: 750px) and (max-width: 874px){
 
+p{
+	margin-top: 8px;
+	margin-bottom: 30px;
+}
+
 .intro_text{
 	margin-top: 10%;
 }
 
-
 .container {
 	margin: auto;
-	max-width: 80%;
+	max-width: 85%;
 	padding-top: 20px;
 	margin-right: 25px;
 	margin-left: 25px;
@@ -257,7 +260,7 @@ p{
 }
 
 .project{
-	max-width: 49%;
+	max-width: 50%;
 	padding-top: 10%;
 	margin-left: 6%;
 }
@@ -268,7 +271,7 @@ p{
 }
 
 .intro_text{
-	margin-left: 45%;
+	margin-left: 50%;
 	max-width: 50%;	
 	margin-top: -3%;
 }
@@ -288,7 +291,12 @@ p{
 
 
 body{
-	font-size: 17px;
+	font-size: 16.5px;
+}
+
+p{
+	margin-top: 8px;
+	margin-bottom: 30px;
 }
 
 .container {
@@ -297,7 +305,7 @@ body{
 }
 
 .project{
-	max-width: 45%;
+	max-width: 50%;
 	padding-top: 10%;
 }
 
@@ -331,12 +339,12 @@ body{
 @media (min-width: 1175px) {
 
 body{
-	font-size: 17px;
+	font-size: 16.5px;
 }
 
 p{
 	margin-top: 8px;
-	margin-bottom: 16px;
+	margin-bottom: 30px;
 }
 
 .container {
@@ -344,8 +352,11 @@ p{
 	margin: auto;
 }
 
+.button {
+}
+
 .project{
-	max-width: 45%;
+	max-width: 50%;
 	padding-top: 10%;
 }
 
