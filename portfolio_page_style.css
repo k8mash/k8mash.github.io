@@ -18,17 +18,20 @@
 }
 
 .project_container{
-	margin-bottom: 75px;
+	margin-bottom: 12%;
 }
 
-
-.project_image_a{
-	background-image: url("images/family.jpg");
-	max-width: 50%;
+.project_image{
+	float: right;
+	vertical-align: top;
+	max-width: 100%;
+	padding-top: 10%;
+	padding-bottom: 15%;
 }
+
 
 .button {
-	margin-top: 22px;
+	margin-top: 15%;
   	padding: 12px;
   	color: #232323;
   	background-color: #fff;
@@ -65,8 +68,7 @@
 .fa:hover {
 	color: #ffd633;
 }
-
-
+}
 @media (min-width: 625px) and (max-width: 744px) {
 
 	
@@ -84,6 +86,14 @@ p{
 
 .projects{
 	max-width: 100%;
+}
+
+.project_image{
+	float: right;
+	vertical-align: text-top;
+	max-width: 90%;
+	padding-top: 10%;
+	padding-bottom: 15%;
 }
 
 }
@@ -125,12 +135,11 @@ p{
 }
 
 .container_portfolio{
-	max-width: 65%;
+	max-width: 70%;
 	margin: auto;
 	padding-top: 3%;
 	padding-bottom: 5%;
 }
-
 
 .project{
 	max-width: 50%;
@@ -156,18 +165,20 @@ p{
 }
 
 .container_portfolio {
-	max-width: 50%;
+	max-width: 65%;
 	margin: auto;
 }
 
 .project{
-	max-width: 50%;
+	max-width: 45%;
 	padding-top: 10%;
 }
 
 .project_image{
+	float: right;
+	vertical-align: text-top;
 	max-width: 45%;
-	padding-top: 15%;
+	padding-top: 0%;
 }
 
 }
