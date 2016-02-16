@@ -9,17 +9,6 @@
 	padding-top: 5%;
 }
 
-.nav {
-	background-color: #232323;
-	height: 40px;
- 	position: fixed;
- 	top: 0;
- 	width: 100%;
- 	font-family: 'Open Sans', sans-serif;
- 	font-weight: 400;
- 	z-index: 289;
-}
-
 .project_container{
 	margin-bottom: 75px;
 }
@@ -137,7 +126,7 @@ p{
 }
 
 .container {
-	max-width: 55%;
+	max-width: 50%;
 	margin: auto;
 }
 
