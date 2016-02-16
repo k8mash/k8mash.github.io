@@ -64,15 +64,6 @@ li{
 	padding-top: 2%;
 }
 
-.button {
-	margin-top: 16px;
-  	padding: 12px;
-  	color: #fff;
-  	background-color: #fff;
-  	text-decoration:none;
-  	border: solid #232323 2px;
-}
-
 .header{
 	font-weight: 700;
 }
@@ -181,14 +172,22 @@ a:active {
     color:#000;
 }
 
-.button:visited{
+.button {
+	margin-top: 22px;
+  	padding: 12px;
+  	color: #232323;
+  	background-color: #fff;
+  	text-decoration:none;
+  	border: solid #232323 2px;
+}
+
+.button:visited {
 	text-decoration: none;
 	color: #232323;
 	background-color: #fff;
 	font-weight: 400;
 	border: solid #232323 2px;
 }
-
 .button:hover{
 	text-decoration: none;
 	color: #fff;
