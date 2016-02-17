@@ -7,31 +7,15 @@
 	padding-bottom: 5%;
 }
 
-.project{
-	max-width: 100%;
-	padding-top: 5%;
-}
-
-.project_image{
-	max-width: 500px;
-	padding-top: 5%;
-}
 
 .project_container{
 	margin-bottom: 12%;
 }
 
-.project_image{
-	float: right;
-	vertical-align: top;
-	max-width: 100%;
-	padding-top: 10%;
-	padding-bottom: 15%;
-}
-
 
 .button {
 	margin-top: 15%;
+	margin-bottom: 15%;
   	padding: 12px;
   	color: #232323;
   	background-color: #fff;
@@ -88,18 +72,15 @@ p{
 	max-width: 100%;
 }
 
-.project_info{
+.project_title{
 	max-width: 100%;
 	padding-top: 10%;
 }
 
-.project_image{
-	float: right;
-	vertical-align: text-top;
-	max-width: 90%;
-	padding-top: 10%;
-	padding-bottom: 15%;
+.project_description{
+	max-width: 100%;
 }
+
 
 }
 @media (min-width: 750px) and (max-width: 874px){
@@ -120,15 +101,15 @@ p{
 	max-width: 100%;
 }
 
-.project_info{
+.project_title{
 	max-width: 50%;
 	padding-top: 10%;
 }
 
-.project_image{
-	max-width: 45%;
-	padding-top: 10%;
+.project_description{
+	max-width: 50%;
 }
+
 
 }
 @media (min-width: 875px) and (max-width: 1174px) {
@@ -154,14 +135,13 @@ p{
 	max-width: 100%;
 }
 
-.project_info{
+.project_title{
 	max-width: 50%;
 	padding-top: 10%;
 }
 
-.project_image{
-	max-width: 45%;
-	padding-top: 10%;
+.project_description{
+	max-width: 50%;
 }
 
 }
@@ -186,15 +166,18 @@ p{
 	max-width: 100%;
 }
 
-.project_info{
-	max-width: 45%;
+.project_title{
+	width: 45%;
 	padding-top: 10%;
 }
 
-.project_image{
-	vertical-align: top;
-	max-width: 45%;
-	padding-top: 0%;
+.project_description{
+	left: 0px;
+	width: 45%;
+	float: right;
+	margin-top:-75px;
+	vertical-align: text-top;
+	clear:left;
 }
 
 }
