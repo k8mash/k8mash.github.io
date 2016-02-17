@@ -182,12 +182,10 @@ a:active {
 }
 
 .about h3{
-	color: #fff;
+	color: #ffd633;
+	letter-spacing: 2px;
 }
 
-.about h4{
-	color: #ffd633;
-}
 
 .about p{
 	color: #fff;
@@ -227,6 +225,10 @@ a:active {
 	padding-left: 7%;
 }
 
+.education h4{
+	padding-top: 10px;
+}
+}
 @media (min-width: 625px) and (max-width: 699px) {
 
 	
