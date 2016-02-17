@@ -84,8 +84,13 @@ p{
 	padding-bottom: 9%;
 }
 
-.projects{
+.project{
 	max-width: 100%;
+}
+
+.project_info{
+	max-width: 100%;
+	padding-top: 10%;
 }
 
 .project_image{
@@ -112,12 +117,16 @@ p{
 }
 
 .project{
+	max-width: 100%;
+}
+
+.project_info{
 	max-width: 50%;
 	padding-top: 10%;
 }
 
 .project_image{
-	max-width: 50%;
+	max-width: 45%;
 	padding-top: 10%;
 }
 
@@ -142,6 +151,10 @@ p{
 }
 
 .project{
+	max-width: 100%;
+}
+
+.project_info{
 	max-width: 50%;
 	padding-top: 10%;
 }
@@ -165,18 +178,21 @@ p{
 }
 
 .container_portfolio {
-	max-width: 65%;
+	max-width: 60%;
 	margin: auto;
 }
 
 .project{
+	max-width: 100%;
+}
+
+.project_info{
 	max-width: 45%;
 	padding-top: 10%;
 }
 
 .project_image{
-	float: right;
-	vertical-align: text-top;
+	vertical-align: top;
 	max-width: 45%;
 	padding-top: 0%;
 }
