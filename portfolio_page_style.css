@@ -1,3 +1,4 @@
+
 .project_width {
 	margin: auto;
 	max-width: 85%;
@@ -10,39 +11,82 @@
 }
 
 .portfolio{
-	padding-top: 5%;
-	padding-bottom: 5%;
 }
 
 .project_a{
 	max-width: 100%;
-	margin: 5% 0 0 0;
+	margin: 6% 0 0 0;
 }
 
 .project_b{
 	max-width: 100%;
-	margin: 5% 0 0 0;
+	margin: 6% 0 0 0;
 }
 
 .project_c{
 	max-width: 100%;
-	margin: 5% 0 0 0;
+	margin: 6% 0 0 0;
 }
 
 .project_d{
 	max-width: 100%;
-	margin: 5% 0 0 0;
+	margin: 6% 0 0 0;
 }
 
 .project_e{
 	max-width: 100%;
-	margin: 5% 0 5% 0;
+	margin: 6% 0 5% 0;
 }
+
+.background_a{
+	padding: 5% 0 5% 0;
+}
+
+.background_a:hover{
+	padding: 5% 0 5% 0;
+	background-color: #f1f1f1;
+}
+
+.background_b{
+	padding: 5% 0 5% 0;
+}
+
+.background_b:hover{
+	padding: 5% 0 5% 0;
+	background-color: #f1f1f1;
+}
+
+.background_c{
+	padding: 5% 0 5% 0;
+}
+
+.background_c:hover{
+	padding: 5% 0 5% 0;
+	background-color: #f1f1f1;
+}
+
+.background_d{
+	padding: 5% 0 5% 0;
+}
+
+.background_d:hover{
+	padding: 5% 0 5% 0;
+	background-color: #f1f1f1;
+}
+
+.background_e{
+	padding: 5% 0 5% 0;
+}
+
+.background_e:hover{
+	padding: 5% 0 5% 0;
+	background-color: #f1f1f1;
+}
+
 
 .button_portfolio {
   	padding: 12px;
   	color: #232323;
-  	background-color: #fff;
   	text-decoration:none;
   	border: solid #232323 2px;
 }
@@ -110,7 +154,7 @@ p{
 }
 
 .description{
-	margin-top: 7%;
+	margin-top: 10%;
 	max-width: 100%;
 }
 
@@ -143,7 +187,7 @@ p{
 }
 
 .description{
-	margin-top: 13%;
+	margin-top: 10%;
 	display: table-cell;
 	float: right;
 	padding-right: 4%;
@@ -183,7 +227,7 @@ p{
 }
 
 .description{
-	margin-top: 13%;
+	margin-top: 10%;
 	display: table-cell;
 	float: right;
 	padding-right: 4%;
@@ -227,7 +271,7 @@ p{
 }
 
 .description {
-	margin-top: 13%;
+	margin-top: 10%;
 	display: table-cell;
 	float: right;
 	padding-right: 4%;
