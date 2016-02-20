@@ -1,44 +1,50 @@
 .project_width {
 	margin: auto;
 	max-width: 85%;
-	padding-top: 7%;
+}
+
+.introbackground{
+	background-color: #f7f7f7; 
+	padding-top: 30px;
+	padding-bottom: 10%;
+}
+
+.portfolio{
+	padding-top: 5%;
 	padding-bottom: 5%;
 }
 
 .project_a{
 	max-width: 100%;
-	padding: 20% 0 20% 0;
+	margin: 5% 0 0 0;
 }
 
 .project_b{
 	max-width: 100%;
-	padding: 20% 0 20% 0;
+	margin: 5% 0 0 0;
 }
 
 .project_c{
 	max-width: 100%;
-	padding: 20% 0 20% 0;
+	margin: 5% 0 0 0;
 }
 
 .project_d{
 	max-width: 100%;
-	padding: 20% 0 20% 0;
+	margin: 5% 0 0 0;
 }
 
 .project_e{
 	max-width: 100%;
-	padding: 20% 0 20% 0;
+	margin: 5% 0 5% 0;
 }
 
 .button_portfolio {
-	margin-top: 35%;
-	margin-bottom: 15%;
   	padding: 12px;
   	color: #232323;
   	background-color: #fff;
   	text-decoration:none;
   	border: solid #232323 2px;
-  	text-align: center;
 }
 
 .button_portfolio:visited {
@@ -68,6 +74,17 @@
 	color: #ffd633;
 }
 
+.title{
+	max-width: 100%;
+	margin-top: 0%;
+}
+
+.description{
+	margin-top: 13%;
+	max-width: 100%;
+}
+
+
 }
 @media (min-width: 625px) and (max-width: 744px) {
 
@@ -80,10 +97,12 @@ p{
 .project_width {
 	margin: auto;
 	max-width: 80%;
-	padding-top: 5%;
-	padding-bottom: 9%;
 }
 
+.introbackground{
+	padding-top: 30px;
+	padding-bottom: 15%;
+}
 
 .title{
 	max-width: 100%;
@@ -91,6 +110,7 @@ p{
 }
 
 .description{
+	margin-top: 7%;
 	max-width: 100%;
 }
 
@@ -107,24 +127,26 @@ p{
 	max-width: 100%;
 }
 
+.introbackground{
+	padding-top: 35px;
+}
+
 .project_width {
 	display: table;
 	margin: auto;
 	max-width: 85%;
-	padding-top: 4%;
-	padding-bottom: 7%;
 }
 
 .title{
-	width: 55%;
+	width: 70%;
 	float: left;
-	padding-left: 4%;
 }
 
 .description{
+	margin-top: 13%;
 	display: table-cell;
-	width: 30%;
 	float: right;
+	padding-right: 4%;
 }
 
 }
@@ -142,10 +164,13 @@ p{
 
 .project_width{
 	display: table;
-	max-width: 70%;
+	max-width: 75%;
 	margin: auto;
-	padding-top: 3%;
-	padding-bottom: 5%;
+}
+
+.introbackground{
+	padding-top: 75px;
+	padding-bottom: 10%;
 }
 
 .portfolio{
@@ -153,15 +178,15 @@ p{
 }
 
 .title{
-	width: 65%;
+	width: 70%;
 	float: left;
-	padding-left: 4%;
 }
 
 .description{
+	margin-top: 13%;
 	display: table-cell;
-	width: 30%;
 	float: right;
+	padding-right: 4%;
 }
 
 }
@@ -179,8 +204,13 @@ p{
 
 .project_width {
 	display: table;
-	max-width: 60%;
+	max-width: 57%;
 	margin: auto;
+}
+
+.introbackground{ 
+	padding-top: 20px;
+	padding-bottom: 45px;
 }
 
 .project_section {
@@ -192,15 +222,15 @@ p{
 }
 
 .title {
-	width: 65%;
+	width: 70%;
 	float: left;
-	padding-left: 4%;
 }
 
 .description {
+	margin-top: 13%;
 	display: table-cell;
-	width: 30%;
 	float: right;
+	padding-right: 4%;
 }
 
 }
