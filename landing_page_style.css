@@ -1,6 +1,6 @@
 
 body{
-	font-size: 16.5px;
+	font-size: 16px;
 	margin: 0;
 	text-rendering: optimizeLegibility;
 }
@@ -30,9 +30,8 @@ h3{
 	font-weight: 400;
 	letter-spacing: .5px;
 	color: #232323;
-	margin-top: 9px;
+	margin-top: 15%;
 	padding-top: 0px;
-	padding-bottom: 0px;
 }
 
 h4{
@@ -40,8 +39,8 @@ h4{
 	font-size:1.5em;
 	font-weight: 400;
 	color: #232323;
-	margin-top: 9px;
-	margin-bottom: 12px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
@@ -51,7 +50,7 @@ p{
 	font-size: 1em;
 	color: #232323;
 	font-weight: 400;
-	margin-top: 9px;
+	margin-top: 10px;
 	margin-bottom: 18px;
 	line-height:1.55em;
 }
@@ -167,7 +166,8 @@ li{
 }
 
 .item {
-	padding-top: 45px;
+	padding-top: 10px;
+
 }
 
 .button {
@@ -261,8 +261,6 @@ a:active {
 	font-weight: 400;
 	margin-top: 3%;
 }
-
-
 
 .about p{
 	color: #fff;
