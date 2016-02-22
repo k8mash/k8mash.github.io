@@ -22,6 +22,7 @@ h2{
 	color: #232323;
 	margin-bottom: 3px;
 	letter-spacing: 1px;
+	line-height: 1.5em;
 }
 
 h3{
@@ -30,6 +31,7 @@ h3{
 	font-weight: 400;
 	color: #232323;
 	letter-spacing: 1px;
+	line-height: .75em;
 }
 
 h4{
@@ -39,6 +41,7 @@ h4{
 	color: #232323;
 	margin-top: 1px;
 	letter-spacing: 1px;
+	line-height: .75em;
 }
 
 p{
@@ -75,11 +78,12 @@ li{
 	height: auto;
 	margin-top: 0px;
 }
-
+/*
 .nav {
 	background-color:#232323;
 	height: 40px;
 }
+*/
 
 .intro {
 	padding-top: 2%;
@@ -87,8 +91,75 @@ li{
 }
 
 .introbackground{
-	background-color: #f7f7f7; 
+	background-color: #232323; 
 	padding-top: 20px;
+}
+
+.introbackground h2{
+	font-family: "acumin-pro-condensed",sans-serif;
+	font-size:1.99em;
+	font-weight: 400;
+	color: #fff;
+	margin-bottom: 3px;
+	letter-spacing: 1px;
+	line-height: 1.5em;
+}
+
+.introbackground h3{
+	font-family: "acumin-pro-condensed",sans-serif;
+	font-size:1.66em;
+	font-weight: 400;
+	color: #fff;
+	letter-spacing: 1px;
+	line-height: .75em;
+}
+
+.introbackground h4{
+	font-family: "acumin-pro-condensed",sans-serif;
+	font-size:1.33em;
+	font-weight: 400;
+	color: #fff;
+	margin-top: 1px;
+	letter-spacing: 1px;
+	line-height: .75em;
+}
+
+.introbackground p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	color: #fff;
+	font-weight: 400;
+	margin-top: 8px;
+	margin-bottom: 18px;
+}
+
+.introbackground a:link{
+	text-decoration: none;
+	font-weight: 600;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.introbackground a:visited {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.introbackground a:hover {
+	text-decoration: underline;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.introbackground a:active {
+	text-decoration: underline;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color:#fff;
+}
+
 }
 
 .intro_text{
@@ -149,6 +220,7 @@ a:active {
     color:#000;
 }
 
+/*
 .nav {
 	background-color: #232323;
 	height: 40px;
@@ -181,6 +253,7 @@ a:active {
     font-family: "acumin-pro-condensed",sans-serif;
     color:#fff;
 }
+*/
 
 .about h3{
 	color: #ffd633;
