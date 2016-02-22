@@ -11,7 +11,7 @@ h1{
 	font-weight: 700;
 	margin-top: 10%;
 	margin-bottom:-35px;
-	color: #ffd633;
+	color: #232323;
 	letter-spacing: .5px;
 }
 
@@ -95,9 +95,9 @@ li{
 }
 
 .introbackground{
-	background-color: #3f3f3f; 
+	background-color: #f3f3f3; 
 }
-
+/*
 .introbackground h2{
 	font-family: "acumin-pro-condensed",sans-serif;
 	font-size:1.99em;
@@ -160,6 +160,7 @@ li{
     color:#fff;
 
 }
+*/
 
 .intro_text{
 	margin-top: 10%;
@@ -392,7 +393,7 @@ body{
 @media (min-width: 875px) and (max-width: 1174px) {
 
 body{
-	font-size: 16.5px;
+	font-size: 16px;
 	margin-bottom: 20px;
 }
 
@@ -437,7 +438,7 @@ body{
 
 
 body{
-	font-size: 17px;
+	font-size: 16.75px;
 	margin-bottom: 20px;
 }
 
