@@ -41,7 +41,7 @@ h4{
 	font-weight: 400;
 	color: #232323;
 	margin-top: 1px;
-	line-height: .25em;
+	line-height: .1em;
 }
 
 p{
@@ -50,6 +50,7 @@ p{
 	color: #232323;
 	font-weight: 400;
 	margin-bottom: 18px;
+	line-height:1.55em;
 }
 
 li{
@@ -163,7 +164,7 @@ li{
 }
 
 .item {
-	padding-top: 20px;
+	padding-top: 45px;
 }
 
 .button {
@@ -289,7 +290,7 @@ a:active {
 
 .footer {
 	background-color: #fff;
-	height: 1px;
+	height: 5px;
 	padding-top: 1%;
 }
 
