@@ -31,7 +31,7 @@ h3{
 	font-weight: 400;
 	letter-spacing: .5px;
 	color: #232323;
-	line-height: .75em;
+	line-height: .25em;
 	margin-top: 12%;
 }
 
@@ -41,7 +41,7 @@ h4{
 	font-weight: 400;
 	color: #232323;
 	margin-top: 1px;
-	line-height: .75em;
+	line-height: .25em;
 }
 
 p{
@@ -49,7 +49,6 @@ p{
 	font-size: 1em;
 	color: #232323;
 	font-weight: 400;
-	margin-top: 8px;
 	margin-bottom: 18px;
 }
 
@@ -69,7 +68,7 @@ li{
 	margin: auto;
 	max-width: 85%;
 	padding-top: 7%;
-	padding-bottom: 5%;
+	padding-bottom: 10%;
 }
 
 .desktop_image{
@@ -156,7 +155,6 @@ li{
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     color:#fff;
-}
 
 }
 
@@ -431,11 +429,6 @@ body{
 body{
 	font-size: 17px;
 	margin-bottom: 20px;
-}
-
-p{
-	margin-top: 8px;
-	margin-bottom: 16px;
 }
 
 .container_landing_pg {
