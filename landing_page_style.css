@@ -110,8 +110,7 @@ li{
 	font-weight: 400;
 	color: #fff;
 	letter-spacing: .5px;
-	margin-top: 10px;
-	line-height: .75em;
+	line-height: .25em;
 }
 
 .introbackground h4{
@@ -120,8 +119,7 @@ li{
 	font-weight: 400;
 	color: #fff;
 	letter-spacing: .5px;
-	margin-top: 1px;
-	line-height: .75em;
+	line-height: .25em;
 }
 
 .introbackground p{
