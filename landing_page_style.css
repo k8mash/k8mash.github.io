@@ -12,7 +12,7 @@ h1{
 	margin-top: 10%;
 	margin-bottom:-35px;
 	color: #ffd633;
-	letter-spacing: 1px;
+	letter-spacing: .5px;
 }
 
 h2{
@@ -21,7 +21,7 @@ h2{
 	font-weight: 400;
 	color: #232323;
 	margin-bottom: 3px;
-	letter-spacing: 1px;
+	letter-spacing: .5px;
 	line-height: 1.5em;
 }
 
@@ -29,9 +29,10 @@ h3{
 	font-family: "acumin-pro-condensed",sans-serif;
 	font-size:1.66em;
 	font-weight: 400;
+	letter-spacing: .5px;
 	color: #232323;
-	letter-spacing: 1px;
 	line-height: .75em;
+	margin-top: 12%;
 }
 
 h4{
@@ -40,7 +41,6 @@ h4{
 	font-weight: 400;
 	color: #232323;
 	margin-top: 1px;
-	letter-spacing: 1px;
 	line-height: .75em;
 }
 
@@ -92,7 +92,6 @@ li{
 
 .introbackground{
 	background-color: #232323; 
-	padding-top: 20px;
 }
 
 .introbackground h2{
@@ -100,9 +99,9 @@ li{
 	font-size:1.99em;
 	font-weight: 400;
 	color: #fff;
+	letter-spacing: .5px;
 	margin-bottom: 3px;
-	letter-spacing: 1px;
-	line-height: 1.5em;
+	line-height: 2em;
 }
 
 .introbackground h3{
@@ -110,7 +109,8 @@ li{
 	font-size:1.66em;
 	font-weight: 400;
 	color: #fff;
-	letter-spacing: 1px;
+	letter-spacing: .5px;
+	margin-top: 10px;
 	line-height: .75em;
 }
 
@@ -119,8 +119,8 @@ li{
 	font-size:1.33em;
 	font-weight: 400;
 	color: #fff;
+	letter-spacing: .5px;
 	margin-top: 1px;
-	letter-spacing: 1px;
 	line-height: .75em;
 }
 
@@ -259,7 +259,9 @@ a:active {
 	color: #ffd633;
 	letter-spacing: 1px;
 	font-weight: 400;
+	margin-top: 3%;
 }
+
 
 
 .about p{
@@ -268,8 +270,8 @@ a:active {
 
 .aboutbackground{
 	background-color: #232323; 
-	padding-top: 1%;
-	padding-bottom: 13%;
+	padding-top: 3%;
+	padding-bottom: 0%;
 }
 
 .social_icons{
@@ -291,7 +293,7 @@ a:active {
 
 .footer {
 	background-color: #fff;
-	height: 10px;
+	height: 1px;
 	padding-top: 1%;
 }
 
@@ -439,7 +441,7 @@ p{
 }
 
 .container_landing_pg {
-	max-width: 45%;
+	max-width: 47%;
 	margin: auto;
 	padding-top: 2%;
 	padding-bottom: 4%;
@@ -458,9 +460,6 @@ p{
 	padding-bottom: 5%;
 }
 
-.introbackground{
-	padding-top: 20px;
-}
 
 .intro_text{
 	margin-left: 48%;
