@@ -270,7 +270,7 @@ a:active {
 .aboutbackground{
 	background-color: #232323; 
 	padding-top: 3%;
-	padding-bottom: 0%;
+	padding-bottom: 14%;
 }
 
 .social_icons{
@@ -294,6 +294,7 @@ a:active {
 	background-color: #fff;
 	height: 5px;
 	padding-top: 1%;
+	padding-bottom: 2%;
 }
 
 .footer p{
@@ -316,8 +317,8 @@ p{
 .container_landing_pg {
 	margin: auto;
 	max-width: 80%;
-	padding-top: 5%;
-	padding-bottom: 9%;
+	padding-top: 3%;
+	padding-bottom: 16%;
 }
 
 .desktop_image{
@@ -370,7 +371,7 @@ body{
 	float: left;
 	max-width: 225px;
 	height: auto;
-	margin-top: -5px;
+	margin-top: -25px;
 }
 
 .about{
@@ -398,7 +399,7 @@ body{
 }
 
 .container_landing_pg{
-	max-width: 65%;
+	max-width: 70%;
 	margin: auto;
 	padding-top: 3%;
 	padding-bottom: 5%;
@@ -407,7 +408,7 @@ body{
 .desktop_image{
 	display: block;
 	float: left;
-	margin-top: -45px;
+	margin-top: -65px;
 	max-width: 250px;
 	height: auto;
 }
@@ -422,7 +423,7 @@ body{
 }
 
 .intro_text{
-	margin-left: 53%;
+	margin-left: 50%;
 	max-width: 60%;	
 	margin-top: -1%;
 }
@@ -443,7 +444,7 @@ body{
 }
 
 .container_landing_pg {
-	max-width: 47%;
+	max-width: 53%;
 	margin: auto;
 	padding-top: 2%;
 	padding-bottom: 4%;
@@ -452,7 +453,7 @@ body{
 .desktop_image{
 	display: block;
 	float: left;
-	margin-top: 0px;
+	margin-top: -20px;
 	max-width: 255px;
 	height: auto;
 	margin-right: 3%;
