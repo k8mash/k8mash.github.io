@@ -266,11 +266,11 @@ a:active {
 }
 */
 
-.about h3{
+.about h2{
 	color: #232323;
 	letter-spacing: 1px;
-	font-weight: 700;
-	margin-top: 3%;
+	font-weight: 400;
+	margin-top: 2%;
 }
 
 .about p{
