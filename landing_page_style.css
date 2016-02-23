@@ -273,6 +273,11 @@ a:active {
 	margin-top: 2%;
 }
 
+.about h3{
+	margin-top: 0%;
+}
+
+
 .about p{
 	color: #232323;
 }
