@@ -277,6 +277,9 @@ a:active {
 	margin-top: 7%;
 }
 
+.intro_text p{
+	margin-top: -25px;
+}
 
 .about p{
 	color: #232323;
