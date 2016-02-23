@@ -404,7 +404,6 @@ body{
 @media (min-width: 875px) and (max-width: 1174px) {
 
 body{
-	font-size: 16px;
 	margin-bottom: 20px;
 }
 
@@ -477,6 +476,6 @@ body{
 .intro_text{
 	margin-left: 48%;
 	max-width: 60%;
-	margin-top: 1%;}
+	margin-top: 0%;}
 }
 }
