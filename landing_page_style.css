@@ -408,10 +408,13 @@ body{
 	padding-bottom: 7%;
 }
 
-
 .intro_text{
 	margin-left: 48%;
 	max-width: 50%;	
+}
+
+.intro_text h3{
+	max-width: 30%;
 }
 	
 }
@@ -457,6 +460,10 @@ body{
 .intro_text{
 	margin-left: 50%;
 	max-width: 60%;	
+}
+
+.intro_text h3{
+	max-width: 30%;
 }
 
 .aboutbackground{
