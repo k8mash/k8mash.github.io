@@ -334,12 +334,12 @@ p{
 }
 
 .intro_text h3{
-	margin-top: 12%;
+	margin-top: 13%;
 	line-height: 1em;
 }
 
 .intro_text p{
-	margin-top: -5px;
+	margin-top: -13px;
 }
 
 
@@ -385,6 +385,11 @@ body{
 	margin-bottom: 20px;
 }
 
+.intro_text h3{
+	margin-top: 6%;
+	line-height: 1em;
+}
+
 .container_landing_pg {
 	margin: auto;
 	max-width: 85%;
@@ -424,6 +429,13 @@ body{
 
 body{
 	margin-bottom: 20px;
+}
+.intro_text h3{
+	margin-top: 11%;
+	line-height: 1em;
+}
+.intro_text p{
+	margin-top: -10px;
 }
 
 .container_landing_pg{
@@ -469,6 +481,15 @@ body{
 body{
 	font-size: 17px;
 	margin-bottom: 20px;
+}
+
+.intro_text h3{
+	margin-top: 35px;
+	line-height: 1em;
+}
+
+.intro_text p{
+	margin-top: -20px;
 }
 
 .container_landing_pg {
