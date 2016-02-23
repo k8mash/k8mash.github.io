@@ -99,19 +99,6 @@
 	font-weight: 400;
 }
 
-.fa {
-	color: #fff;
-	float: left;
-	margin-top: 0px;
-	margin-right: 25px;
-	margin-bottom: 40px;
-	margin-left: 0px;
-}
-
-.fa:hover {
-	color: #ffd633;
-}
-
 .title{
 	max-width: 100%;
 	margin-top: 0%;
