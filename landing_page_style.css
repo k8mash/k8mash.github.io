@@ -333,6 +333,16 @@ p{
 	margin-bottom: 18px;
 }
 
+.intro_text h3{
+	margin-top: 12%;
+	line-height: 1em;
+}
+
+.intro_text p{
+	margin-top: -5px;
+}
+
+
 .container_landing_pg {
 	margin: auto;
 	max-width: 80%;
