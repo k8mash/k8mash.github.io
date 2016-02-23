@@ -486,7 +486,7 @@ body{
 }
 
 .container_landing_pg {
-	max-width: 50%;
+	max-width: 48%;
 	margin: auto;
 	padding-top: 2%;
 	padding-bottom: 4%;
@@ -507,8 +507,8 @@ body{
 
 
 .intro_text{
-	margin-left: 45%;
-	max-width: 65%;
+	margin-left: 48%;
+	max-width: 50%;
 	margin-top: 0%;}
 }
 }
