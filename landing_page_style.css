@@ -97,6 +97,16 @@ li{
 .introbackground{
 	background-color: #f3f3f3; 
 }
+
+::-moz-selection { 
+background-color: #ffd633; 
+color: #232323;
+}
+
+::selection {
+background-color: #ffd633;
+color: #232323;
+}
 /*
 .introbackground h2{
 	font-family: "acumin-pro-condensed",sans-serif;
