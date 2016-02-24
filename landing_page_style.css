@@ -414,7 +414,7 @@ body{
 }
 	
 }
-@media (min-width: 875px) and (max-width: 1174px) {
+@media (min-width: 875px) and (max-width: 1144px) {
 
 body{
 	font-size: 16.5px;
@@ -465,7 +465,7 @@ body{
 
 }
 
-@media (min-width: 1175px) {
+@media (min-width: 1145px) {
 
 
 body{
