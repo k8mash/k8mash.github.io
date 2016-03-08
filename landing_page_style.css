@@ -72,8 +72,8 @@ li{
 
 	margin: auto;
 	max-width: 85%;
-	padding-top: 7%;
-	padding-bottom: 10%;
+	padding-top: 0%;
+	padding-bottom: 5%;
 }
 
 .desktop_image{
@@ -288,8 +288,6 @@ a:active {
 
 .aboutbackground{
 	background-color: #f7f7f7; 
-	padding-top: 3%;
-	padding-bottom: 10%;
 }
 
 .social_icons{
@@ -335,7 +333,7 @@ p{
 	margin: auto;
 	max-width: 80%;
 	padding-top: 3%;
-	padding-bottom: 16%;
+	padding-bottom: 10%;
 }
 
 .desktop_image{
@@ -356,13 +354,14 @@ p{
 	max-width: 50%;	
 }
 
-.aboutbackground{
-	padding-bottom: 25%;
-}
-
 .footer p{
 	color: #232323;
 	padding-left: 1%;
+}
+
+.aboutbackground{
+	padding: 3% 0% 0% 3%;
+
 }
 	
 }
@@ -376,7 +375,7 @@ body{
 	margin: auto;
 	max-width: 85%;
 	padding-top: 4%;
-	padding-bottom: 7%;
+	padding-bottom: %;
 }
 
 .about{
@@ -395,15 +394,11 @@ body{
 	margin: auto;
 }
 
-.aboutbackground{
-	padding-bottom: 7%;
-}
-
 .intro_text{
 	margin-left: 48%;
 	max-width: 50%;	
 }
-	
+
 }
 @media (min-width: 875px) and (max-width: 1144px) {
 
@@ -423,7 +418,7 @@ body{
 	max-width: 70%;
 	margin: auto;
 	padding-top: 3%;
-	padding-bottom: 5%;
+	padding-bottom: 3%;
 }
 
 .desktop_image{
@@ -448,11 +443,6 @@ body{
 	max-width: 60%;	
 }
 
-.aboutbackground{
-	padding-bottom: 6%;
-}
-
-
 }
 
 @media (min-width: 1145px) {
@@ -475,7 +465,7 @@ body{
 	max-width: 50%;
 	margin: auto;
 	padding-top: 2%;
-	padding-bottom: 4%;
+	padding-bottom: 0%;
 }
 
 .desktop_image{
@@ -487,9 +477,6 @@ body{
 	margin-right: 3%;
 }
 
-.aboutbackground{
-	padding-bottom: 5%;
-}
 
 
 .intro_text{
