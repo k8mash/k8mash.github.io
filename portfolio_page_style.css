@@ -1,3 +1,6 @@
+h2{
+	margin-bottom: 15px;
+}
 
 .project_width {
 	margin: auto;
@@ -32,51 +35,68 @@
 	margin: 6% 0 5% 0;
 }
 
+.introbackground{
+	rgba(260, 260, 260, 1);
+	padding-bottom: 3%;
+}
+
 .background_a{
 	padding: 5% 0 5% 0;
+	background-color: #fff;
+	transition: background-color 0.3s ease;
 }
 
 .background_a:hover{
 	padding: 5% 0 5% 0;
-	background-color: #f1f1f1;
+	background-color: #ffd633;
 }
 
 .background_b{
 	padding: 5% 0 5% 0;
+	background-color: #fff;
+	transition: background-color 0.3s ease;
 }
 
 .background_b:hover{
 	padding: 5% 0 5% 0;
-	background-color: #f1f1f1;
+	background-color: #ffd633;
 }
 
 .background_c{
 	padding: 5% 0 5% 0;
+	background-color: #fff;
+	transition: background-color 0.3s ease;
 }
 
 .background_c:hover{
 	padding: 5% 0 5% 0;
-	background-color: #f1f1f1;
+	background-color: #ffd633;
+	opacity: 0.9;
 }
 
 .background_d{
 	padding: 5% 0 5% 0;
+	background-color: #fff;
+	transition: background-color 0.3s ease;
 }
 
 .background_d:hover{
 	padding: 5% 0 5% 0;
-	background-color: #f1f1f1;
+	background-color: #ffd633;
+	opacity: 0.9;
 }
 
 .background_e{
 	padding: 5% 0 5% 0;
+	background-color: #fff;
+	transition: background-color 0.3s ease;
 }
 
 .background_e:hover{
 	padding: 5% 0 5% 0;
-	background-color: #f1f1f1;
+	background-color: #ffd633;
+	opacity: 0.9;
 }
-
 
 .button_portfolio {
   	padding: 12px;
@@ -86,13 +106,16 @@
 }
 
 .button_portfolio:visited {
+	padding: 12px;
 	text-decoration: none;
 	color: #232323;
 	background-color: #fff;
-	font-weight: 400;
+	font-weight: 400; 
 	border: solid #232323 2px;
 }
+
 .button_portfolio:hover{
+	padding: 14px;
 	text-decoration: none;
 	color: #fff;
 	background-color: #232323;
