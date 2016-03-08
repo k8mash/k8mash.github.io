@@ -288,6 +288,8 @@ a:active {
 
 .aboutbackground{
 	background-color: #f7f7f7; 
+	padding-top: 50px;
+	padding-bottom: 25px;
 }
 
 .social_icons{
@@ -359,10 +361,6 @@ p{
 	padding-left: 1%;
 }
 
-.aboutbackground{
-	padding: 3% 0% 0% 3%;
-
-}
 	
 }
 @media (min-width: 700px) and (max-width: 874px){
@@ -465,7 +463,7 @@ body{
 	max-width: 50%;
 	margin: auto;
 	padding-top: 2%;
-	padding-bottom: 0%;
+	padding-bottom: 5%;
 }
 
 .desktop_image{
@@ -477,7 +475,11 @@ body{
 	margin-right: 3%;
 }
 
-
+.aboutbackground{
+	background-color: #f7f7f7; 
+	padding-top: 25px;
+	padding-bottom: -10px;
+}
 
 .intro_text{
 	margin-left: 46%;
