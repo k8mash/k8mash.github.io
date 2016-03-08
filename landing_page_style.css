@@ -200,6 +200,10 @@ color: #232323;
 	font-weight: 400;
 }
 
+.resume{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
 
 a:link{
 	text-decoration: none;
