@@ -69,11 +69,10 @@ li{
 }
 
 .container_landing_pg {
-
 	margin: auto;
 	max-width: 85%;
 	padding-top: 3%;
-	padding-bottom: 5%;
+	padding-bottom: 10%;
 }
 
 .desktop_image{
@@ -82,6 +81,7 @@ li{
 	height: auto;
 	margin-top: 0px;
 }
+
 /*
 .nav {
 	background-color:#232323;
@@ -358,6 +358,7 @@ p{
 	margin-left: 45%;
 	max-width: 50%;	
 }
+
 
 .footer p{
 	color: #232323;
