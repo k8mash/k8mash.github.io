@@ -44,7 +44,7 @@ h2{
 .background_a{
 	padding: 2% 0 3% 0;
 	background-color: #fff;
-	transition: background-color 0.3s ease;
+	transition: background-color 0.9s ease;
 }
 
 .background_a:hover{
@@ -55,7 +55,7 @@ h2{
 .background_b{
 	padding: 2% 0 3% 0;
 	background-color: #fff;
-	transition: background-color 0.3s ease;
+	transition: background-color 0.9s ease;
 }
 
 .background_b:hover{
@@ -66,7 +66,7 @@ h2{
 .background_c{
 	padding: 2% 0 3% 0;
 	background-color: #fff;
-	transition: background-color 0.3s ease;
+	transition: background-color 0.9s ease;
 }
 
 .background_c:hover{
@@ -78,7 +78,7 @@ h2{
 .background_d{
 	padding: 2% 0 3% 0;
 	background-color: #fff;
-	transition: background-color 0.3s ease;
+	transition: background-color 0.9s ease;
 }
 
 .background_d:hover{
@@ -90,7 +90,7 @@ h2{
 .background_e{
 	padding: 2% 0 3% 0;
 	background-color: #fff;
-	transition: background-color 0.3s ease;
+	transition: background-color 0.9s ease;
 }
 
 .background_e:hover{

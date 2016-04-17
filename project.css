@@ -1,22 +1,22 @@
 
 body{
-	font-size: 16px;
+	font-size: 15px;
 	margin: 0;
 	text-rendering: optimizeLegibility;
 }
 
 h1{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:2em;
+	font-size:1.5em;
 	font-weight: 700;
-	margin-top: 5%;
+	margin-top: 0px;
 	margin-bottom:0px;
-	color: #ffd633;
+	color: #232323;
 }
 
 h2{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.75em;
+	font-size:1.4em;
 	font-weight: 400;
 	color: #232323;
 	margin-top: 3%;
@@ -25,7 +25,7 @@ h2{
 
 h3{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.5em;
+	font-size:1.3em;
 	font-weight: 700;
 	color: #232323;
 	margin-top: 2%;
@@ -34,11 +34,21 @@ h3{
 
 h4{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.25em;
+	font-size:1.2em;
 	font-weight: 400;
 	color: #232323;
 	margin-top: 2%;
 	margin-bottom: 2%;
+}
+
+h5{
+	font-family: "acumin-pro-condensed",sans-serif;
+	font-size: 1em;
+	font-weight: 700;
+	color: #232323;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-transform: uppercase;
 }
 
 p{
@@ -55,6 +65,20 @@ li{
 	font-size: 1em;
 	color: #232323;
 	list-style-type: none;
+}
+
+ul{
+	list-style:none;
+    padding-left: 0;
+    margin-top: 8px;
+}
+
+li{
+	font-family:'Open Sans', sans-serif;
+	font-size: .75em;
+	color: #232323;
+	list-style-type: none;
+    line-height: 1.5em;
 }
 
 .intro_image{
@@ -90,17 +114,22 @@ li{
 }
 
 .intro {
-	padding-top: 2%;
-	padding-bottom: 4%;
+	padding-top: 5%;
+	padding-bottom: 7%;
+}
+
+.intro_descrip {
+	max-width: 100%;
+}
+
+.aside {
+	padding-left: 0%;
+	padding-top: 5px;
 }
 
 .introbackground{
 	background-color: #f7f7f7; 
 	padding-top: 20px;
-}
-
-.intro_text{
-	margin-top: 10%;
 }
 
 .item {
@@ -131,6 +160,10 @@ li{
 	background-color: #232323;
 	font-weight: 400;
 
+}
+
+.content{
+	margin-top: 2%;
 }
 
 .full_image {
@@ -201,14 +234,14 @@ a:active {
 	text-decoration: underline;
     font-weight: 400;
     font-family: "acumin-pro-condensed",sans-serif;
-    color:#ff;
+    color:#fff;
 }
 
 .nav a:active {
 	text-decoration: underline;
     font-weight: 400;
     font-family: "acumin-pro-condensed",sans-serif;
-    color:#ff;
+    color:#fff;
 }
 
 .about h3{
@@ -241,11 +274,11 @@ a:active {
 }
 
 
-@media (min-width: 625px) and (max-width: 699px) {
+@media (min-width: 625px) and (max-width: 699px){
 
 	
 p{
-	margin-bottom: 18px;
+	margin-bottom: 16px;
 }
 
 .container_project{
@@ -263,16 +296,24 @@ p{
 	margin-top: -35px;
 }
 
+.intro_descrip {
+	max-width: 74%;
+	float: left;
+}
+
+.aside {
+	padding-left: 75%;
+}
+
 .intro {
 	max-width: 100%;
-	padding-bottom: 65%;
+	padding-bottom: 2%;
 }
 
 .intro_text{
 	margin-left: 45%;
 	max-width: 50%;	
 	margin-top: -1%;
-
 }
 	
 }
@@ -283,6 +324,23 @@ body{
 	margin-bottom: 20px;
 }
 
+h1{
+	font-size:1.65em;
+}
+
+h2{
+	font-size:1.45em;
+}
+
+h3{
+	font-size:1.2em;
+}
+
+h4{
+	font-size:1.1em;
+}
+
+
 .container_project {
 	margin: auto;
 	max-width: 85%;
@@ -290,9 +348,15 @@ body{
 	padding-bottom: 7%;
 }
 
-.about{
-	margin-left: 30px;
+.intro_descrip {
+	max-width: 74%;
+	float: left;
 }
+
+.aside {
+	padding-left: 75%;
+}
+
 .desktop_image{
 	display: block;
 	float: left;
@@ -304,6 +368,7 @@ body{
 .about{
 	max-width: 100%;
 	margin: auto;
+	margin-left: 30px;
 }
 
 .aboutbackground{
@@ -325,8 +390,25 @@ body{
 	margin-bottom: 20px;
 }
 
+h1{
+	font-size:1.75em;
+}
+
+h2{
+	font-size:1.5em;
+}
+
+h3{
+	font-size:1.25em;
+}
+
+h4{
+	font-size:1.15em;
+}
+
+
 .container_project {
-	max-width: 65%;
+	max-width: 67%;
 	margin: auto;
 	padding-top: 3%;
 	padding-bottom: 5%;
@@ -339,6 +421,16 @@ body{
 	max-width: 250px;
 	height: auto;
 }
+
+.intro_descrip {
+	max-width: 74%;
+	float: left;
+}
+
+.aside {
+	padding-left: 75%;
+}
+
 
 .about{
 	max-width: 100%;
@@ -370,16 +462,42 @@ body{
 	margin-bottom: 20px;
 }
 
+h1{
+	font-size:1.75em;
+}
+
+h2{
+	font-size:1.5em;
+}
+
+h3{
+	font-size:1.25em;
+}
+
+h4{
+	font-size:1.1em;
+}
+
+
 p{
 	margin-top: 8px;
 	margin-bottom: 16px;
 }
 
 .container_project {
-	max-width: 57%;
+	max-width: 60%;
 	margin: auto;
 	padding-top: 2%;
 	padding-bottom: 4%;
+}
+
+.intro_descrip {
+	max-width: 74%;
+	float: left;
+}
+
+.aside {
+	padding-left: 75%;
 }
 
 .desktop_image{
