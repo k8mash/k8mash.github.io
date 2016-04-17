@@ -46,18 +46,19 @@ h4{
 }
 
 p{
-	font-family: 'Open Sans', sans-serif;
+	font-family:'Source Sans Pro', sans-serif;
 	font-size: 1em;
 	color: #232323;
-	font-weight: 400;
+	font-weight: 300;
 	margin-top: 10px;
 	margin-bottom: 18px;
 	line-height:1.55em;
 }
 
 li{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1em;
+	font-weight: 300;
 	color: #232323;
 	list-style-type: none;
 }

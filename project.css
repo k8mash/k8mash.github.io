@@ -1,6 +1,6 @@
 
 body{
-	font-size: 15px;
+	font-size: 16px;
 	margin: 0;
 	text-rendering: optimizeLegibility;
 }
@@ -52,19 +52,12 @@ h5{
 }
 
 p{
-	font-family: 'Open Sans', sans-serif;
+	font-family:'Source Sans Pro', sans-serif;
 	font-size: 1em;
 	color: #232323;
-	font-weight: 400;
+	font-weight: 300;
 	margin-top: 1%;
 	margin-bottom: 1%;
-}
-
-li{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1em;
-	color: #232323;
-	list-style-type: none;
 }
 
 ul{
@@ -74,8 +67,9 @@ ul{
 }
 
 li{
-	font-family:'Open Sans', sans-serif;
-	font-size: .75em;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: .85em;
+	font-weight: 300;
 	color: #232323;
 	list-style-type: none;
     line-height: 1.5em;
