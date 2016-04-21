@@ -1,6 +1,6 @@
 
 body{
-	font-size: 16px;
+	font-size: 15px;
 	margin: 0;
 	text-rendering: optimizeLegibility;
 }
@@ -271,7 +271,7 @@ a:active {
 
 	
 p{
-	margin-bottom: 16px;
+	margin-bottom: 15px;
 }
 
 .container_project{
@@ -313,7 +313,7 @@ p{
 @media (min-width: 700px) and (max-width: 874px){
 
 body{
-	font-size: 16px;
+	font-size: 15.5px;
 	margin-bottom: 20px;
 }
 
@@ -379,7 +379,7 @@ h4{
 @media (min-width: 875px) and (max-width: 1174px) {
 
 body{
-	font-size: 16.5px;
+	font-size: 15.5 px;
 	margin-bottom: 20px;
 }
 
