@@ -75,7 +75,7 @@ li{
     line-height: 1.5em;
 }
 
-.intro_image{
+.span_image{
 	max-width: 100%;
 }
 
@@ -108,7 +108,7 @@ li{
 }
 
 .intro {
-	padding-top: 5%;
+	padding-top: 12%;
 	padding-bottom: 7%;
 }
 

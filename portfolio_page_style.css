@@ -3,6 +3,55 @@ h2{
 	
 }
 
+.nav {
+	background-color:#232323;
+	height: 50px;
+}
+
+
+.nav a{
+	display: block;
+    text-decoration: none;
+    font-family:'Source Sans Pro', sans-serif;
+	font-size: 1em;
+	color: #fff;
+	font-weight: 300;
+	letter-spacing: .25px;
+}
+
+.nav a:visited{
+	color: #fff;
+}
+
+.nav a:hover{
+	text-decoration: underline;
+    color: #fff;
+}
+
+.nav_left{
+	float: left;
+}
+
+.nav_left_li{
+	text-align: center;
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+.nav_right{
+	float: right;
+	width: 40%;
+	display: block;
+
+}
+
+.nav_right li{
+	display: inline-block;
+	text-align: center;
+	list-style-type: none;
+	padding-left: 20px;
+}
+
 .project_width {
 	margin: auto;
 	max-width: 85%;
@@ -14,26 +63,31 @@ h2{
 .project_a{
 	max-width: 100%;
 	margin: 6% 0 0 0;
+	padding: 10px 0 45px 0;
 }
 
 .project_b{
 	max-width: 100%;
 	margin: 6% 0 0 0;
+	padding: 10px 0 45px 0;
 }
 
 .project_c{
 	max-width: 100%;
 	margin: 6% 0 0 0;
+	padding: 10px 0 45px 0;
 }
 
 .project_d{
 	max-width: 100%;
 	margin: 6% 0 0 0;
+	padding: 10px 0 45px 0;
 }
 
 .project_e{
 	max-width: 100%;
 	margin: 6% 0 5% 0;
+	padding: 10px 0 45px 0;
 }
 
 .introbackground{
@@ -44,58 +98,59 @@ h2{
 .background_a{
 	padding: 2% 0 3% 0;
 	background-color: #fff;
-	transition: background-color 0.9s ease;
+	transition: background-color 1.5s ease;
+	opacity:50%;
 }
 
 .background_a:hover{
 	padding: 2% 0 3% 0;
-	background-color: #ffd633;
+	background-color: #f9d65a;
 }
 
 .background_b{
 	padding: 2% 0 3% 0;
 	background-color: #fff;
-	transition: background-color 0.9s ease;
+	transition: background-color 1.5s ease;
 }
 
 .background_b:hover{
 	padding: 2% 0 3% 0;
-	background-color: #ffd633;
+	background-color: #f9d65a;
 }
 
 .background_c{
 	padding: 2% 0 3% 0;
 	background-color: #fff;
-	transition: background-color 0.9s ease;
+	transition: background-color 1.5s ease;
 }
 
 .background_c:hover{
 	padding: 2% 0 3% 0;
-	background-color: #ffd633;
+	background-color: #f9d65a;
 	opacity: 0.9;
 }
 
 .background_d{
 	padding: 2% 0 3% 0;
 	background-color: #fff;
-	transition: background-color 0.9s ease;
+	transition: background-color 1.5s ease;
 }
 
 .background_d:hover{
 	padding: 2% 0 3% 0;
-	background-color: #ffd633;
+	background-color: #f9d65a;
 	opacity: 0.9;
 }
 
 .background_e{
 	padding: 2% 0 3% 0;
 	background-color: #fff;
-	transition: background-color 0.9s ease;
+	transition: background-color 1.5s ease;
 }
 
 .background_e:hover{
 	padding: 2% 0 3% 0;
-	background-color: #ffd633;
+	background-color: #f9d65a;
 	opacity: 0.9;
 }
 
@@ -141,6 +196,7 @@ p{
 	margin-bottom: 35px;
 }
 
+
 .project_a{
 	margin: 15% 0% 15% 0%;
 }
@@ -184,6 +240,7 @@ p{
 	margin-bottom: 30px;
 }
 
+
 .portfolio{
 	max-width: 100%;
 }
@@ -192,6 +249,20 @@ p{
 	display: table;
 	margin: auto;
 	max-width: 85%;
+}
+
+.desktop_image{
+	margin-top: 0px
+}
+
+.about{
+	max-width: 100%;
+	margin: auto;
+}
+
+.intro_text{
+	margin-left: 48%;
+	max-width: 50%;	
 }
 
 .title{
@@ -218,6 +289,7 @@ p{
 	margin-bottom: 30px;
 }
 
+
 .project_width{
 	display: table;
 	max-width: 75%;
@@ -226,6 +298,10 @@ p{
 
 .portfolio{
 	max-width: 100%;
+}
+
+.desktop_image{
+	margin-top: -40px
 }
 
 .title{
@@ -258,6 +334,35 @@ p{
 	margin: auto;
 }
 
+.desktop_image{
+	margin-top: 0px
+
+}
+
+.project_a{
+	max-width: 100%;
+	margin: 5% 0 0 0;
+}
+
+.project_b{
+	max-width: 100%;
+	margin: 6% 0 0 0;
+}
+
+.project_c{
+	max-width: 100%;
+	margin: 6% 0 0 0;
+}
+
+.project_d{
+	max-width: 100%;
+	margin: 6% 0 0 0;
+}
+
+.project_e{
+	max-width: 100%;
+	margin: 6% 0 5% 0;
+}
 
 .project_section {
 	margin-bottom: 10%;

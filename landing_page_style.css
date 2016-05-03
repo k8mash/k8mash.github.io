@@ -191,14 +191,14 @@ color: #232323;
 	text-decoration: none;
 	color: #232323;
 	background-color: #fff;
-	font-weight: 400;
+	font-weight: 300;
 	border: solid #232323 2px;
 }
 .button:hover{
 	text-decoration: none;
 	color: #fff;
 	background-color: #232323;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 .resume{
