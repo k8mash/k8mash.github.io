@@ -30,19 +30,18 @@ h2{
 
 .nav_left{
 	float: left;
+	padding-left: 0px;
 }
 
 .nav_left_li{
 	text-align: center;
 	list-style-type: none;
-	padding-left: 20px;
 }
 
 .nav_right{
 	float: right;
-	width: 40%;
+	width: 30%;
 	display: block;
-
 }
 
 .nav_right li{
@@ -55,9 +54,6 @@ h2{
 .project_width {
 	margin: auto;
 	max-width: 85%;
-}
-
-.portfolio{
 }
 
 .project_a{
@@ -104,7 +100,7 @@ h2{
 
 .background_a:hover{
 	padding: 2% 0 3% 0;
-	background-color: #f9d65a;
+	background-color: #e1e1e1;
 }
 
 .background_b{
@@ -115,7 +111,7 @@ h2{
 
 .background_b:hover{
 	padding: 2% 0 3% 0;
-	background-color: #f9d65a;
+	background-color: #e1e1e1;
 }
 
 .background_c{
@@ -126,7 +122,7 @@ h2{
 
 .background_c:hover{
 	padding: 2% 0 3% 0;
-	background-color: #f9d65a;
+	background-color: #e1e1e1;
 	opacity: 0.9;
 }
 
@@ -138,7 +134,7 @@ h2{
 
 .background_d:hover{
 	padding: 2% 0 3% 0;
-	background-color: #f9d65a;
+	background-color: #e1e1e1;
 	opacity: 0.9;
 }
 
@@ -150,7 +146,7 @@ h2{
 
 .background_e:hover{
 	padding: 2% 0 3% 0;
-	background-color: #f9d65a;
+	background-color: #e1e1e1;
 	opacity: 0.9;
 }
 
@@ -188,7 +184,7 @@ h2{
 	max-width: 100%;
 }
 
-}
+
 @media (min-width: 625px) and (max-width: 699px) {
 
 	
@@ -196,27 +192,62 @@ p{
 	margin-bottom: 35px;
 }
 
+.desktop_image{
+	margin-top: -50px;
+}
+
+.intro_text{
+	display: inherit;
+	margin-left: 50%;
+	max-width: 65%;	
+}
+
+.introbackground{
+	rgba(260, 260, 260, 1);
+	padding-top: 4%;
+	padding-bottom: 6%;
+}
 
 .project_a{
-	margin: 15% 0% 15% 0%;
+	margin: 3% 0% 0% 0%;
+}
+
+
+.background_a:hover{
+	padding: 2% 0 3% 0;
 }
 
 .project_b{
-	margin: 15% 0% 15% 0%;
+	margin: 3% 0% 0% 0%;
+}
+
+.background_b:hover{
+	padding: 2% 0 3% 0;
 }
 
 .project_c{
-	margin: 15% 0% 15% 0%;
+	margin: 3% 0% 0% 0%;
+}
+
+.background_c:hover{
+	padding: 2% 0 3% 0;
 }
 
 .project_d{
-	margin: 15% 0% 15% 0%;
+	margin: 3% 0% 0% 0%;
+}
+
+.background_d:hover{
+	padding: 2% 0 3% 0;
 }
 
 .project_e{
-	margin: 15% 0% 15% 0%;
+	margin: 3% 0% 0% 0%;
 }
 
+.background_e:hover{
+	padding: 2% 0 3% 0;
+}
 
 .project_width {
 	margin: auto;
@@ -225,7 +256,6 @@ p{
 
 .title{
 	max-width: 100%;
-	padding-top: 10%;
 }
 
 .description{
@@ -234,25 +264,29 @@ p{
 }
 
 }
-@media (min-width: 700px) and (max-width: 874px){
+@media (min-width: 700px) and (max-width: 854px){
 
 p{
 	margin-bottom: 30px;
 }
-
 
 .portfolio{
 	max-width: 100%;
 }
 
 .project_width {
-	display: table;
 	margin: auto;
-	max-width: 85%;
+	max-width: 80%;
 }
 
 .desktop_image{
-	margin-top: 0px
+	margin-top: -25px;
+}
+
+.introbackground{
+	rgba(260, 260, 260, 1);
+	padding-top: .25%;
+	padding-bottom: 6%;
 }
 
 .about{
@@ -261,8 +295,9 @@ p{
 }
 
 .intro_text{
-	margin-left: 48%;
+	margin-left: 45%;
 	max-width: 50%;	
+	display: inherit;
 }
 
 .title{
@@ -277,8 +312,46 @@ p{
 	padding-right: 4%;
 }
 
+.project_a{
+	margin: 1% 0% 26% 0%;
 }
-@media (min-width: 875px) and (max-width: 1174px) {
+
+
+.background_a:hover{
+	padding: 2% 0 3% 0;
+}
+
+.project_b{
+	margin: 1% 0% 17% 0%;
+}
+
+.background_b:hover{
+	padding: 2% 0 3% 0;
+}
+
+.project_c{
+	margin: 1% 0% 22% 0%;
+}
+
+.background_c:hover{
+	padding: 2% 0 3% 0;
+}
+
+.project_d{
+	margin: 1% 0% 20% 0%;
+}
+
+.background_d:hover{
+	padding: 2% 0 3% 0;
+}
+
+.project_e{
+	margin: 1% 0% 10% 0%;
+}
+
+
+}
+@media (min-width: 855px) and (max-width: 1020px) {
 
 
 body{
@@ -289,11 +362,15 @@ p{
 	margin-bottom: 30px;
 }
 
-
 .project_width{
-	display: table;
 	max-width: 75%;
 	margin: auto;
+}
+
+.introbackground{
+	rgba(260, 260, 260, 1);
+	padding-top: .5%;
+	padding-bottom: 7%;
 }
 
 .portfolio{
@@ -301,7 +378,13 @@ p{
 }
 
 .desktop_image{
-	margin-top: -40px
+	margin-top: -35px
+}
+
+.intro_text{
+	display: inherit;
+	margin-left: 46%;
+	max-width: 55%;	
 }
 
 .title{
@@ -316,9 +399,45 @@ p{
 	padding-right: 4%;
 }
 
+.project_a{
+	margin: 1% 0% 20% 0%;
 }
 
-@media (min-width: 1175px) {
+.background_a:hover{
+	padding: 2% 0 3% 0;
+}
+
+.project_b{
+	margin: 1% 0% 17% 0%;
+}
+
+.background_b:hover{
+	padding: 2% 0 3% 0;
+}
+
+.project_c{
+	margin: 1% 0% 20% 0%;
+}
+
+.background_c:hover{
+	padding: 2% 0 3% 0;
+}
+
+.project_d{
+	margin: 1% 0% 17% 0%;
+}
+
+.background_d:hover{
+	padding: 2% 0 3% 0;
+}
+
+.project_e{
+	margin: 1% 0% 10% 0%;
+}
+
+}
+
+@media (min-width: 1021px) {
 
 body{
 	font-size: 16.5px;
@@ -329,39 +448,25 @@ p{
 }
 
 .project_width {
-	display: table;
+	display: block;
 	max-width: 57%;
 	margin: auto;
 }
 
+.introbackground{
+	rgba(260, 260, 260, 1);
+	padding-top: .5%;
+	padding-bottom: 8%;
+}
+
+.intro-text{
+	margin-top: 0%;
+	display: inherit;
+}
+
 .desktop_image{
-	margin-top: 0px
+	margin-top: -32px;
 
-}
-
-.project_a{
-	max-width: 100%;
-	margin: 5% 0 0 0;
-}
-
-.project_b{
-	max-width: 100%;
-	margin: 6% 0 0 0;
-}
-
-.project_c{
-	max-width: 100%;
-	margin: 6% 0 0 0;
-}
-
-.project_d{
-	max-width: 100%;
-	margin: 6% 0 0 0;
-}
-
-.project_e{
-	max-width: 100%;
-	margin: 6% 0 5% 0;
 }
 
 .project_section {
@@ -383,6 +488,43 @@ p{
 	float: right;
 	padding-right: 4%;
 }
+
+.project_a{
+	margin: 1% 0% 24% 0%;
+}
+
+.background_a:hover{
+	padding: 2% 0 3% 0;
+}
+
+.project_b{
+	margin: 1% 0% 13% 0%;''
+}
+
+.background_b:hover{
+	padding: 2% 0 3% 0;
+}
+
+.project_c{
+	margin: 1% 0% 22% 0%;
+}
+
+.background_c:hover{
+	padding: 2% 0 3% 0;
+}
+
+.project_d{
+	margin: 1% 0% 20% 0%;
+}
+
+.background_d:hover{
+	padding: 2% 0 3% 0;
+}
+
+.project_e{
+	margin: 1% 0% 10% 0%;
+}
+
 
 }
 

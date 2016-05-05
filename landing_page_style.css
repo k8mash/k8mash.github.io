@@ -78,9 +78,14 @@ li{
 
 .desktop_image{
 	display: block;
-	max-width: 150px;
+	float: left;
+	max-width: 50%;
 	height: auto;
 	margin-top: 0px;
+}
+
+.intro_text{
+	display: inline-block;
 }
 
 /*
@@ -208,7 +213,7 @@ color: #232323;
 
 a:link{
 	text-decoration: none;
-	font-weight: 600;
+	font-weight: 500;
 	color: #232323;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -221,13 +226,13 @@ a:visited {
 
 a:hover {
 	text-decoration: underline;
-    font-weight: 600;
+    font-weight: 500;
     font-family: 'Open Sans', sans-serif;
 }
 
 a:active {
 	text-decoration: underline;
-    font-weight: 600;
+    font-weight: 500;
     font-family: 'Open Sans', sans-serif;
     color:#000;
 }
@@ -293,7 +298,7 @@ a:active {
 
 .aboutbackground{
 	background-color: #f7f7f7; 
-	padding-top: 50px;
+	padding-top: 1px;
 	padding-bottom: 25px;
 }
 
@@ -316,7 +321,6 @@ a:active {
 
 .education h4{
 	padding-top: 10px;
-}
 }
 
 @media (min-width: 625px) and (max-width: 699px) {
@@ -360,15 +364,18 @@ p{
 	max-width: 50%;	
 }
 
-
 .footer p{
 	color: #232323;
 	padding-left: 1%;
 }
 
+.aboutbackground{
+	padding-top: 1px;
+	padding-bottom: 45px;
+}
 	
 }
-@media (min-width: 700px) and (max-width: 874px){
+@media (min-width: 700px) and (max-width: 854px){
 
 body{
 	font-size: 16px;
@@ -402,8 +409,13 @@ body{
 	max-width: 50%;	
 }
 
+.aboutbackground{
+	padding-top: 1px;
+	padding-bottom: 45px;
 }
-@media (min-width: 875px) and (max-width: 1144px) {
+
+}
+@media (min-width: 855px) and (max-width: 1120px) {
 
 body{
 	font-size: 16.5px;
@@ -444,11 +456,12 @@ body{
 .intro_text{
 	margin-left: 50%;
 	max-width: 60%;	
+	display: inherit;
 }
 
 }
 
-@media (min-width: 1145px) {
+@media (min-width: 1121px) {
 
 
 body{
@@ -489,6 +502,7 @@ body{
 .intro_text{
 	margin-left: 46%;
 	max-width: 58%;
-	margin-top: 0%;}
+	margin-top: 0%;
+	display: inherit;
 }
 }
