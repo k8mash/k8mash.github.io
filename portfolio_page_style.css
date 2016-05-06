@@ -17,6 +17,7 @@ h2{
 	color: #fff;
 	font-weight: 300;
 	letter-spacing: .25px;
+	text-transform: uppercase;
 }
 
 .nav a:visited{
