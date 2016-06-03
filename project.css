@@ -7,8 +7,8 @@ body{
 
 h1{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.5em;
-	font-weight: 500;
+	font-size: 1.85em;
+	font-weight: 600;
 	margin-top: 0px;
 	margin-bottom:0px;
 	color: #232323;
@@ -16,7 +16,7 @@ h1{
 
 h2{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.4em;
+	font-size:1.65em;
 	font-weight: 300;
 	color: #232323;
 	margin-top: 3%;
@@ -25,8 +25,8 @@ h2{
 
 h3{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.3em;
-	font-weight: 500;
+	font-size:1.45em;
+	font-weight: 600;
 	color: #232323;
 	margin-top: 2%;
 	margin-bottom: 2%;
@@ -34,8 +34,8 @@ h3{
 
 h4{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.2em;
-	font-weight: 500;
+	font-size:1.25em;
+	font-weight: 300;
 	color: #232323;
 	margin-top: 5%;
 	margin-bottom: 2%;
@@ -43,12 +43,11 @@ h4{
 
 h5{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size: 1em;
+	font-size: 1.05em;
 	font-weight: 300;
 	color: #232323;
 	margin-top: 2%;
 	margin-bottom: 2%;
-	text-transform: uppercase;
 }
 
 p{
@@ -161,8 +160,9 @@ li{
 }
 
 .full_image {
-	max-width: 100%;
-	margin: 5px 0px 5px 0px;
+    max-width: 100%;
+    display: block;
+    margin: 20px auto 20px auto; 
 }
 
 .stack_image{
@@ -175,7 +175,23 @@ li{
 	max-width: 34%;
 	display: block;
 	margin-top: 0px;
-	margin: 5px 5px 5px 0px;
+	margin: 15px 5px 15px 0px;
+}
+
+.side_align_image{
+	max-width: 34%;
+	float: left;
+	display: block;
+	margin-top: 0px;
+	margin: 15px 5px 15px 0px;
+}
+
+.split_image{
+	max-width: 100%;
+	float: left;
+	display: block;
+	margin-top: 0px;
+	margin: 25px 5px 0px 0px;
 }
 
 a:link{
@@ -265,7 +281,7 @@ a:active {
 .fa:hover {
 	color: #ffd633;
 }
-
+}
 
 @media (min-width: 625px) and (max-width: 699px){
 
@@ -308,29 +324,22 @@ p{
 	max-width: 50%;	
 	margin-top: -1%;
 }
-	
+
+.split_image{
+	max-width: 100%;
+	float: left;
+	display: block;
+	margin-top: 0px;
+	margin: 15px 5px 15px 0px;
 }
+	
+} 
+
 @media (min-width: 700px) and (max-width: 874px){
 
 body{
 	font-size: 15.5px;
 	margin-bottom: 20px;
-}
-
-h1{
-	font-size:1.65em;
-}
-
-h2{
-	font-size:1.45em;
-}
-
-h3{
-	font-size:1.2em;
-}
-
-h4{
-	font-size:1.1em;
 }
 
 
@@ -374,34 +383,25 @@ h4{
 	max-width: 50%;	
 	margin-top: -1%;
 }
-	
+
+.split_image{
+	max-width: 100%;
+	float: left;
+	display: block;
+	margin-top: 0px;
+	margin: 15px 5px 15px 0px;
 }
+}
+
 @media (min-width: 875px) and (max-width: 1174px) {
 
 body{
-	font-size: 15.5 px;
+	font-size: 15.5px;
 	margin-bottom: 20px;
 }
 
-h1{
-	font-size:1.75em;
-}
-
-h2{
-	font-size:1.5em;
-}
-
-h3{
-	font-size:1.25em;
-}
-
-h4{
-	font-size:1.15em;
-}
-
-
 .container_project {
-	max-width: 67%;
+	max-width: 62%;
 	margin: auto;
 	padding-top: 3%;
 	padding-bottom: 5%;
@@ -444,7 +444,10 @@ h4{
 	padding-bottom: 6%;
 }
 
-
+.split_image{
+	max-width: 49%;
+	margin: 15px 5px 15px 0px;
+}
 }
 
 @media (min-width: 1175px) {
@@ -455,30 +458,13 @@ body{
 	margin-bottom: 20px;
 }
 
-h1{
-	font-size:1.75em;
-}
-
-h2{
-	font-size:1.5em;
-}
-
-h3{
-	font-size:1.25em;
-}
-
-h4{
-	font-size:1.1em;
-}
-
-
 p{
 	margin-top: 8px;
 	margin-bottom: 16px;
 }
 
 .container_project {
-	max-width: 55%;
+	max-width: 50%;
 	margin: auto;
 	padding-top: 2%;
 	padding-bottom: 4%;
@@ -514,5 +500,10 @@ p{
 	margin-left: 48%;
 	max-width: 60%;
 	margin-top: 1%;}
+}
+
+.split_image{
+	max-width: 49%;
+	margin: 15px 5px 15px 0px;
 }
 }

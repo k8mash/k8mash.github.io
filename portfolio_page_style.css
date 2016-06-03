@@ -66,19 +66,19 @@ h2{
 .project_b{
 	max-width: 100%;
 	margin: 6% 0 0 0;
-	padding: 10px 0 45px 0;
+	padding: 10px 0 50px 0;
 }
 
 .project_c{
 	max-width: 100%;
 	margin: 6% 0 0 0;
-	padding: 10px 0 45px 0;
+	padding: 10px 0 50px 0;
 }
 
 .project_d{
 	max-width: 100%;
 	margin: 6% 0 0 0;
-	padding: 10px 0 45px 0;
+	padding: 10px 0 50px 0;
 }
 
 .project_e{
@@ -220,6 +220,7 @@ p{
 
 .project_b{
 	margin: 3% 0% 0% 0%;
+	padding: 10px 0 40px 0;
 }
 
 .background_b:hover{
@@ -228,6 +229,7 @@ p{
 
 .project_c{
 	margin: 3% 0% 0% 0%;
+	padding: 10px 0 40px 0;
 }
 
 .background_c:hover{
@@ -236,6 +238,7 @@ p{
 
 .project_d{
 	margin: 3% 0% 0% 0%;
+	padding: 10px 0 40px 0;
 }
 
 .background_d:hover{
@@ -315,6 +318,7 @@ p{
 
 .project_a{
 	margin: 1% 0% 26% 0%;
+	padding: 10px 0 10px 0;
 }
 
 
@@ -324,6 +328,7 @@ p{
 
 .project_b{
 	margin: 1% 0% 17% 0%;
+	padding: 10px 0 40px 0;
 }
 
 .background_b:hover{
@@ -332,6 +337,7 @@ p{
 
 .project_c{
 	margin: 1% 0% 22% 0%;
+	padding: 10px 0 30px 0;
 }
 
 .background_c:hover{
@@ -340,6 +346,7 @@ p{
 
 .project_d{
 	margin: 1% 0% 20% 0%;
+	padding: 10px 0 20px 0;
 }
 
 .background_d:hover{
@@ -402,6 +409,7 @@ p{
 
 .project_a{
 	margin: 1% 0% 20% 0%;
+	padding: 10px 0 30px 0;
 }
 
 .background_a:hover{
@@ -410,6 +418,7 @@ p{
 
 .project_b{
 	margin: 1% 0% 17% 0%;
+	padding: 10px 0 30px 0;
 }
 
 .background_b:hover{
@@ -418,6 +427,7 @@ p{
 
 .project_c{
 	margin: 1% 0% 20% 0%;
+	padding: 10px 0 30px 0;
 }
 
 .background_c:hover{
@@ -426,6 +436,7 @@ p{
 
 .project_d{
 	margin: 1% 0% 17% 0%;
+	padding: 10px 0 30px 0;
 }
 
 .background_d:hover{
@@ -492,6 +503,7 @@ p{
 
 .project_a{
 	margin: 1% 0% 24% 0%;
+	padding: 10px 0 15px 0;
 }
 
 .background_a:hover{
@@ -499,7 +511,8 @@ p{
 }
 
 .project_b{
-	margin: 1% 0% 13% 0%;''
+	margin: 1% 0% 13% 0%;
+	padding: 10px 0 50px 0;
 }
 
 .background_b:hover{
@@ -508,6 +521,7 @@ p{
 
 .project_c{
 	margin: 1% 0% 22% 0%;
+	padding: 10px 0 15px 0;
 }
 
 .background_c:hover{
@@ -516,6 +530,7 @@ p{
 
 .project_d{
 	margin: 1% 0% 20% 0%;
+	padding: 10px 0 15px 0;
 }
 
 .background_d:hover{
