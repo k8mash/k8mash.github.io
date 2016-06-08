@@ -75,7 +75,9 @@ li{
 }
 
 .span_image{
-	max-width: 100%;
+	max-width: 80%;
+	display: block;
+    margin: 20px auto 20px auto; 
 }
 
 .header{
@@ -297,6 +299,12 @@ p{
 	padding-bottom: 9%;
 }
 
+
+.container_img {
+	margin: auto;
+	max-width: 90%;
+}
+
 .desktop_image{
 	display: block;
 	float: left;
@@ -464,7 +472,7 @@ p{
 }
 
 .container_project {
-	max-width: 50%;
+	max-width: 51%;
 	margin: auto;
 	padding-top: 2%;
 	padding-bottom: 4%;
