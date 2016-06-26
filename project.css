@@ -16,7 +16,7 @@ h1{
 
 h2{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.65em;
+	font-size:1.75em;
 	font-weight: 300;
 	color: #232323;
 	margin-top: 3%;
@@ -25,7 +25,7 @@ h2{
 
 h3{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.45em;
+	font-size:1.55em;
 	font-weight: 600;
 	color: #232323;
 	margin-top: 2%;
@@ -34,7 +34,7 @@ h3{
 
 h4{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size:1.25em;
+	font-size:1.35em;
 	font-weight: 300;
 	color: #232323;
 	margin-top: 5%;
@@ -43,7 +43,7 @@ h4{
 
 h5{
 	font-family: "acumin-pro-condensed",sans-serif;
-	font-size: 1.05em;
+	font-size: 1.15em;
 	font-weight: 300;
 	color: #232323;
 	margin-top: 2%;
@@ -67,7 +67,7 @@ ul{
 
 li{
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: .85em;
+	font-size: .9em;
 	font-weight: 300;
 	color: #232323;
 	list-style-type: none;
@@ -80,6 +80,15 @@ li{
     margin: 20px auto 20px auto; 
 }
 
+.container_img{
+	margin: auto;
+	max-width: 100%;
+}
+
+.container_full_bleed{
+	max-width: 100%;
+}
+
 .header{
 	font-weight: 700;
 }
@@ -88,7 +97,7 @@ li{
 	font-weight: 700;
 }
 
-.container_project {
+.container_project{
 
 	margin: auto;
 	max-width: 85%;
@@ -154,7 +163,6 @@ li{
 	color: #fff;
 	background-color: #232323;
 	font-weight: 400;
-
 }
 
 .content{
@@ -181,8 +189,8 @@ li{
 }
 
 .side_align_image{
-	max-width: 34%;
-	float: left;
+	max-width: 41%;
+	float: right;
 	display: block;
 	margin-top: 0px;
 	margin: 15px 5px 15px 0px;
@@ -193,7 +201,7 @@ li{
 	float: left;
 	display: block;
 	margin-top: 0px;
-	margin: 25px 5px 0px 0px;
+	margin: 0px 5px 0px 0px;
 }
 
 a:link{
@@ -232,7 +240,6 @@ a:active {
  	font-weight: 400;
  	z-index: 289;
 }
-
 
 .nav a:link{
 	text-decoration: none;
@@ -283,6 +290,7 @@ a:active {
 .fa:hover {
 	color: #ffd633;
 }
+
 }
 
 @media (min-width: 625px) and (max-width: 699px){
@@ -299,11 +307,6 @@ p{
 	padding-bottom: 9%;
 }
 
-
-.container_img {
-	margin: auto;
-	max-width: 90%;
-}
 
 .desktop_image{
 	display: block;
@@ -355,7 +358,7 @@ body{
 	margin: auto;
 	max-width: 85%;
 	padding-top: 4%;
-	padding-bottom: 7%;
+	padding-bottom: 4%;
 }
 
 .intro_descrip {
@@ -404,7 +407,7 @@ body{
 @media (min-width: 875px) and (max-width: 1174px) {
 
 body{
-	font-size: 15.5px;
+	font-size: 16px;
 	margin-bottom: 20px;
 }
 
@@ -412,8 +415,14 @@ body{
 	max-width: 62%;
 	margin: auto;
 	padding-top: 3%;
-	padding-bottom: 5%;
+	padding-bottom: 2%;
 }
+
+.container_img{
+	margin: auto;
+	max-width: 80%;
+}
+
 
 .desktop_image{
 	display: block;
@@ -471,11 +480,32 @@ p{
 	margin-bottom: 16px;
 }
 
+img {
+    height: auto;
+    max-width: 640px;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+img.expanded {
+    max-width: 950px;
+    vertical-align: middle;
+
+}
+
 .container_project {
 	max-width: 51%;
 	margin: auto;
 	padding-top: 2%;
-	padding-bottom: 4%;
+	padding-bottom: 0%;
+}
+
+.container_img{
+	margin: auto;
+	max-width: 80%;
 }
 
 .intro_descrip {

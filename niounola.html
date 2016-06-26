@@ -7,11 +7,26 @@
 		<link rel="stylesheet" type="text/css" href="portfolio_page_style.css">
 		<link rel="stylesheet" type="text/css" href="project.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		<script src="https://use.typekit.net/bgz1ees.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 	</head>
 	<body>
+		<script>
+			$(document).ready(function() {
+        var imageLinks = $('a[href$=".png"], a[href$=".jpg"], a[href$=".gif"], a[href$=".bmp"]');
+        if (imageLinks.children('img').length) {
+            imageLinks.children('img').each(function() {
+                var currentTitle = $(this).attr('title');
+                $(this).attr('title', currentTitle + ' (click to enlarge image)');
+            });
+            imageLinks.click(function(e) {
+                e.preventDefault();
+                $(this).children('img').toggleClass('expanded');
+            });
+        }
+    });
+			</script>
 		<header>
 			<div class="nav">
 				<div class="nav_span">
@@ -23,7 +38,7 @@
 				</ul>
 				<ul class="nav_right">
 					<li>
-						<a href="https://k8mashblog.wordpress.com/">Process</a>
+						<a href="https://k8mash.wordpress.com/">Process</a>
 					</li>
 					<li>
 						<a href="https://k8mashblog.wordpress.com/">Stuff</a>
@@ -33,8 +48,6 @@
 			</div>
 		</div>
 	</header>
-		<div class="nav">
-		</div>
 		<div class= "container_project">
 			<div class ="section">
 				<div class= "intro">
@@ -55,27 +68,37 @@
 						</ul>
 				</div>
 			</div>
+		</div>
+			</div>
+			<div class="container_full_bleed">
+				<img src="images/niounola/product_pair.jpg" class="full_image" alt="product shot of granola and packaging">
+				<img src="images/niounola/package.gif" class="full_image" alt="final design of granola packaging, featuring four flavors: ">
+				<img src="images/niounola/packaging_group.jpg" class="full_image" alt="final design of granola packaging, featuring four flavors: ">
+			</div>
+			</div>
+		<div class= "container_project">
+			<div class ="section">
 				<div class="content">
 					<h3>Role</h3>
-						<p>Create simple brand and packaging for a granola baker.</p>
+						<p>Create simple and flexible brand and packaging for a granola baker.</p>
 					<h3>Work</h3>
 						<p>Niounola is the introductory brand to an emerging cafe venture. Niounola creates their granola is small batches and incorporates asian flavors and high-protein ingredients to create really, really good granola.</p>
 						<h4>Brand Experience</h4>
 							<h5>Wholesome, fresh, and nourished</h5>
-							<img src="images/niounola/niou_moodboard.jpg" class="full_image" alt="moodboard">
+							<a href="images/niounola/niou_moodboard.jpg"><img src="images/niounola/niou_moodboard.jpg" class="full_image" alt="moodboard"></a>
 							<p>The brand needed to communicate wholesome, fresh, and nourishing. A moodboard was created to explore different directions and interpretations of the brand, drawing specifically on nature and produce, and japanese patterns and textiles.</p>	
 						<h4>Mark</h4>
-							<p>The mark needed to build on these three brand attributes, and many directions were explored, from hand drawn script to geometric type faces, to find the right design.</p>
-								<img src="images/niounola/type_sketch.jpg" class="full_image" alt="photograph of type sketches">
-									<p>Early iteratations, exploring more illustrative and organic directions.</p>
-							<p>Due to the repetition and roundness of the letterforms, finding just the right balance proved to be difficult. For the final mark, the decision was made to embrace these patterns and go for a geometric and round form. Below you can see how the initial inspirational design was refined to the final wordmark.</p>
+							<p>The mark needed to build on these three brand attributes, and many directions were explored, from hand drawn script to geometric type faces, to find the right design. Below are two early iteratations, exploring more illustrative and organic directions.</p>
+								<img src="images/niounola/type_sketch.jpg" class="split_image" alt="photograph of type sketches">
+								<img src="images/niounola/type_sketch_2.jpg" class="split_image" alt="photograph of type sketches">
+								<p>Due to the repetition and roundness of the letterforms, finding just the right balance proved to be difficult. For the final mark, the decision was made to embrace these patterns and go for a geometric and round form. Below you can see how the initial inspirational design was refined to the final wordmark.</p>
+
 								<img src="images/niounola/logo_polish.gif" class ="full_image" alt="animation of multiple logo iterations">
 						<h4>Pattern</h4>
 								<p>To contrast with the strong geometry of the logo, and align with the spirit of Niounola, different illustrations and pattern work were explored in multiple mediums.<p>
-									<img src="images/niounola/pattern_1.jpg" class="side_image" alt="pattern exploration of absract shapes">
 								<p>Through this exploration and some additional field research, however, it became clear that the pattern needed to relay back to the product. Therefore, illustrations of the ingredients, such as oats, nuts, and seeds were made.</p>
-									<img src="images/niounola/food_sketch.jpg" class="full_image" alt="sketches of different ingredients">
-									<img src="images/niounola/pattern_2.jpg" class="side_image" alt="pattern exploration of nuts">
+									<a href="images/niounola/ill_process.jpg"> <img src="images/niounola/ill_process.jpg" class="full_image" alt="collage of painting process"></a>
+									<a href="images/niounola/food_sketch.jpg"><img src="images/niounola/food_sketch.jpg" class="full_image" alt="sketches of different ingredients"></a>
 								<p>This design was customized further for each flavor, showcasing the color and dominant ingredients in each type of granola. Currently, the flavors include Matcha, Chai, Black Sesame, and Red Bean.</p>
 						<h4>Packaging</h4>
 								<p>This product needed to have a packaging system that was flexible for both short term and long term vending. To allow for this, a sticker and stamp were developed. Below are some early sketches of possible layouts/designs for the packaging.</p>
@@ -84,7 +107,7 @@
 							<img src="images/niounola/packages.jpg" class="split_image" alt="different granola packages">
 							<img src="images/niounola/packages_by_side.jpg" class="split_image" alt="side by side of different stickers and packages">
  						<h4>Take Aways</h4>
-								<p>falalalalal</p>
+							<p></p>
 			</div>
 		</div>
 	</div>

@@ -41,7 +41,6 @@ h2{
 
 .nav_right{
 	float: right;
-	width: 30%;
 	display: block;
 }
 
@@ -49,7 +48,7 @@ h2{
 	display: inline-block;
 	text-align: center;
 	list-style-type: none;
-	padding-left: 20px;
+	padding-left: 10px;
 }
 
 .project_width {
