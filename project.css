@@ -172,7 +172,7 @@ li{
 .full_image {
     max-width: 100%;
     display: block;
-    margin: 20px auto 20px auto; 
+    margin: 5px auto 5px auto; 
 }
 
 .stack_image{
@@ -189,7 +189,7 @@ li{
 }
 
 .side_align_image{
-	max-width: 41%;
+	max-width: 80%;
 	float: right;
 	display: block;
 	margin-top: 0px;
@@ -197,7 +197,7 @@ li{
 }
 
 .split_image{
-	max-width: 100%;
+	max-width: 80%;
 	float: left;
 	display: block;
 	margin-top: 0px;
@@ -337,7 +337,7 @@ p{
 }
 
 .split_image{
-	max-width: 100%;
+	max-width: 80%;
 	float: left;
 	display: block;
 	margin-top: 0px;
@@ -396,7 +396,7 @@ body{
 }
 
 .split_image{
-	max-width: 100%;
+	max-width: 80%;
 	float: left;
 	display: block;
 	margin-top: 0px;
@@ -461,9 +461,13 @@ body{
 	padding-bottom: 6%;
 }
 
+.full_image {
+    margin: 15px auto 15px auto; 
+}
+
+
 .split_image{
 	max-width: 49%;
-	margin: 15px 5px 15px 0px;
 }
 }
 
@@ -540,8 +544,11 @@ img.expanded {
 	margin-top: 1%;}
 }
 
+.full_image {
+    margin: 15px auto 15px auto; 
+}
+
 .split_image{
 	max-width: 49%;
-	margin: 15px 5px 15px 0px;
 }
 }
