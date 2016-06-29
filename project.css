@@ -60,7 +60,7 @@ p{
 }
 
 ul{
-	list-style:none;
+	list-style: none;
     padding-left: 0;
     margin-top: 8px;
 }
@@ -103,6 +103,11 @@ li{
 	max-width: 85%;
 	padding-top: 7%;
 	padding-bottom: 5%;
+}
+
+.container_footer{
+	margin: auto;
+	max-width: 85%;
 }
 
 .desktop_image{
@@ -204,6 +209,16 @@ li{
 	margin: 0px 5px 0px 0px;
 }
 
+.next_project{
+	margin: 6% 0% 6% 0%;
+	padding: 6% 0% 6% 0%;
+}
+
+.footer{
+	padding: .5% 0% 5% 0%;
+	background-color: #ffd632;
+}
+
 a:link{
 	text-decoration: none;
 	font-weight: 600;
@@ -291,6 +306,10 @@ a:active {
 	color: #ffd633;
 }
 
+.footer{
+	padding: 0% 0% .5% 0%;
+	}
+
 }
 
 @media (min-width: 625px) and (max-width: 699px){
@@ -307,6 +326,11 @@ p{
 	padding-bottom: 9%;
 }
 
+
+.container_footer{
+	margin: auto;
+	max-width: 80%;
+}
 
 .desktop_image{
 	display: block;
@@ -350,7 +374,6 @@ p{
 
 body{
 	font-size: 15.5px;
-	margin-bottom: 20px;
 }
 
 
@@ -359,6 +382,11 @@ body{
 	max-width: 85%;
 	padding-top: 4%;
 	padding-bottom: 4%;
+}
+
+.container_footer{
+	margin: auto;
+	max-width: 85%;
 }
 
 .intro_descrip {
@@ -402,13 +430,16 @@ body{
 	margin-top: 0px;
 	margin: 15px 5px 15px 0px;
 }
+
+.footer{
+	padding: 0% 0% 16% 0%;
+}
 }
 
 @media (min-width: 875px) and (max-width: 1174px) {
 
 body{
 	font-size: 16px;
-	margin-bottom: 20px;
 }
 
 .container_project {
@@ -416,6 +447,11 @@ body{
 	margin: auto;
 	padding-top: 3%;
 	padding-bottom: 2%;
+}
+
+.container_footer{
+	margin: auto;
+	max-width: 62%;
 }
 
 .container_img{
@@ -469,6 +505,10 @@ body{
 .split_image{
 	max-width: 49%;
 }
+
+.footer{
+	padding: 0% 0% 14% 0%;
+}
 }
 
 @media (min-width: 1175px) {
@@ -476,7 +516,6 @@ body{
 
 body{
 	font-size: 17px;
-	margin-bottom: 20px;
 }
 
 p{
@@ -497,7 +536,6 @@ img {
 img.expanded {
     max-width: 950px;
     vertical-align: middle;
-
 }
 
 .container_project {
@@ -505,6 +543,11 @@ img.expanded {
 	margin: auto;
 	padding-top: 2%;
 	padding-bottom: 0%;
+}
+
+.container_footer{
+	margin: auto;
+	max-width: 51%;
 }
 
 .container_img{
@@ -550,5 +593,9 @@ img.expanded {
 
 .split_image{
 	max-width: 49%;
+}
+
+.footer{
+	padding: 0% 0% 14% 0%;
 }
 }
