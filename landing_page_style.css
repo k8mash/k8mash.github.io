@@ -213,7 +213,7 @@ color: #232323;
 
 a:link{
 	text-decoration: none;
-	font-weight: 500;
+	font-weight: 600;
 	color: #232323;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -226,13 +226,13 @@ a:visited {
 
 a:hover {
 	text-decoration: underline;
-    font-weight: 500;
+    font-weight: 600;
     font-family: 'Open Sans', sans-serif;
 }
 
 a:active {
 	text-decoration: underline;
-    font-weight: 500;
+    font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     color:#000;
 }
