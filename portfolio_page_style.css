@@ -356,6 +356,27 @@ p{
 	margin: 1% 0% 10% 0%;
 }
 
+.nav a:link{
+	text-decoration: none;
+	color: #fff;
+	font-family: "acumin-pro-condensed",sans-serif;
+	font-weight: 400;
+}
+
+.nav a:hover {
+	text-decoration: underline;
+    font-weight: 400;
+    font-family: "acumin-pro-condensed",sans-serif;
+    color:#fff;
+}
+
+.nav a:active {
+	text-decoration: underline;
+    font-weight: 400;
+    font-family: "acumin-pro-condensed",sans-serif;
+    color:#fff;
+}
+
 
 }
 @media (min-width: 855px) and (max-width: 1020px) {

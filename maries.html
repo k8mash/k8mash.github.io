@@ -7,10 +7,26 @@
 		<link rel="stylesheet" type="text/css" href="portfolio_page_style.css">
 		<link rel="stylesheet" type="text/css" href="project.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		<script src="https://use.typekit.net/bgz1ees.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 	</head>
 	<body>
+		<script>
+			$(document).ready(function() {
+        var imageLinks = $('a[href$=".png"], a[href$=".jpg"], a[href$=".gif"], a[href$=".bmp"]');
+        if (imageLinks.children('img').length) {
+            imageLinks.children('img').each(function() {
+                var currentTitle = $(this).attr('title');
+                $(this).attr('title', currentTitle + ' (click to enlarge image)');
+            });
+            imageLinks.click(function(e) {
+                e.preventDefault();
+                $(this).children('img').toggleClass('expanded');
+            });
+        }
+    });
+			</script>
 		<header>
 			<div class="nav">
 				<div class="nav_span">
@@ -51,10 +67,17 @@
 						</ul>
 				</div>
 			</div>
+		</div>
+	</div>
+			<div class="container_full_bleed">
+							<img src="images/marie/dashboard_span.jpg" class="full_image" alt="product design in desktop, ipad, and mobile">
+			</div>
+			<div class= "container_project">
+			<div class ="section">
 				<div class="content">
 					<h3>Role</h3>
 					<p>Led data visualizations, design of component library and hi-fidelity mock-ups, grid and typescale. Collaborated on wireframing, and information architecture redesign.</p>
-					<h3>Work<h3>
+					<h3>Intent</h3>
 					<h4>Provide scalable solutions to a growing bakery.</h4>
 					<p>Marieâ€™s is a small and rapidly expanding bakery in Wathena, Kansas-City, that offers gluten-free items both in store, and in partner stores across the greater Kansas-City area. The bakery needed a simplified shopping experience, a more robust tool to document orders and performance, and a brand system to move forward with, fast.</p>
 					
@@ -99,17 +122,17 @@
 					<div class= "content">
 					<h4>Wireframing + Ideation</h4>
 							<h5>Menu</h5>
-							<img src="images/marie/menu_1.jpg" class="split_image" alt="wireframe of menu experience">
-							<img src="images/marie/menu_2.jpg" class="split_image" alt="wireframe of menu experience">
+							<a href="images/marie/menu_1.jpg"><img src="images/marie/menu_1.jpg" class="split_image" alt="wireframe of menu experience"></a>
+							<a href="images/marie/menu_2.jpg"><img src="images/marie/menu_2.jpg" class="split_image" alt="wireframe of menu experience"></a>
 							<h5>Shopping Cart</h5>
-							<img src="images/marie/shopping_cart_1.jpg" class="split_image" alt="wireframe of shopping cart experience">
-							<img src="images/marie/shopping_cart_2.jpg" class="split_image" alt="wireframe of shopping cart experience">
+							<a href="images/marie/shopping_cart_1.jpg"><img src="images/marie/shopping_cart_1.jpg" class="split_image" alt="wireframe of shopping cart experience"></a>
+							<a href="images/marie/shopping_cart_2.jpg"><img src="images/marie/shopping_cart_2.jpg" class="split_image" alt="wireframe of shopping cart experience"></a>
 							<h5>Goal Setting</h5>
-							<img src="images/marie/goal_setting_1.jpg" class="split_image" alt="wireframe of goal setting">
-							<img src="images/marie/goal_setting_2.jpg" class="split_image" alt="wireframe of goal setting">
+							<a href="images/marie/goal_setting_1.jpg"><img src="images/marie/goal_setting_1.jpg" class="split_image" alt="wireframe of goal setting"></a>
+							<a href="images/marie/goal_setting_2.jpg"><img src="images/marie/goal_setting_2.jpg" class="split_image" alt="wireframe of goal setting"></a>
 							<h5>Cake Builder</h5>
-							<img src="images/marie/cake_builder_1.jpg" class="split_image" alt="wireframe of cake builder">
-							<img src="images/marie/cake_builder_2.jpg" class="split_image" alt="wireframe of cake builder">
+							<a href="images/marie/cake_builder_1.jpg"><img src="images/marie/cake_builder_1.jpg" class="split_image" alt="wireframe of cake builder"></a>
+							<a href="images/marie/cake_builder_2.jpg"><img src="images/marie/cake_builder_2.jpg" class="split_image" alt="wireframe of cake builder"></a>
 								<h5>Retail-facing site</h5>
 									<p>Excess pages and content were cut and reorganized for a concise, mobile-first experience.</p>
 									<p>The shopping cart experience and menu were redesigned, and a custom cake-builder tool was created to streamline and digitize the manual ordering process. To see the updated site, check it out here.</p>
@@ -126,9 +149,13 @@
 				<div class= "container_img">
 							<img src="images/marie/internal_component_library-02.svg" class="span_image" alt="wireframe of cake builder">
 				</div>
-				<div class="container_full_bleed">
-							<img src="images/marie/dashboard_span.jpg" class="full_image" alt="product design in desktop, ipad, and mobile">
-				</div>
+				<div class= "container_project">
+					<div class= "section">
+						<div class= "content">
+							<h4>Usability & Accessibility</h4>
+							<h4>Take Aways</h4>
+						</div>
+					</div>
 				</div>
 			
 	</body>
