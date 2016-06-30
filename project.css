@@ -6,16 +6,16 @@ body{
 }
 
 h1{
-	font-family: "acumin-pro-condensed",sans-serif;
+	font-family: "acumin-pro-semi-condensed",sans-serif;
 	font-size: 1.85em;
-	font-weight: 600;
+	font-weight: 700;
 	margin-top: 0px;
 	margin-bottom:0px;
 	color: #232323;
 }
 
 h2{
-	font-family: "acumin-pro-condensed",sans-serif;
+	font-family: "acumin-pro-semi-condensed",sans-serif;
 	font-size:1.75em;
 	font-weight: 400;
 	color: #232323;
@@ -24,25 +24,25 @@ h2{
 }
 
 h3{
-	font-family: "acumin-pro-condensed",sans-serif;
+	font-family: "acumin-pro-semi-condensed",sans-serif;
 	font-size:1.55em;
-	font-weight: 600;
+	font-weight: 700;
 	color: #232323;
 	margin-top: 2%;
 	margin-bottom: 0%;
 }
 
 h4{
-	font-family: "acumin-pro-condensed",sans-serif;
+	font-family: "acumin-pro-semi-condensed",sans-serif;
 	font-size:1.35em;
-	font-weight: 600;
+	font-weight: 700;
 	color: #232323;
 	margin-top: 1%;
 	margin-bottom: 2%;
 }
 
 h5{
-	font-family: "acumin-pro-condensed",sans-serif;
+	font-family: "acumin-pro-semi-condensed",sans-serif;
 	font-size: 1.15em;
 	font-weight: 400;
 	color: #232323;
