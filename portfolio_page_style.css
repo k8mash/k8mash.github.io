@@ -57,6 +57,13 @@ ul{
 	padding-left: 10px;
 }
 
+#rectangle {
+	width: 250px;
+	height: 100px;
+	background-color: #ffd633;
+}
+
+
 .project_width {
 	margin: auto;
 	max-width: 85%;
@@ -106,7 +113,7 @@ ul{
 
 .background_a:hover{
 	padding: 2% 0 3% 0;
-	background-color: #e1e1e1;
+	background-color: #f3f3f3;
 }
 
 .background_b{
@@ -117,7 +124,7 @@ ul{
 
 .background_b:hover{
 	padding: 2% 0 3% 0;
-	background-color: #e1e1e1;
+	background-color: #f3f3f3;
 }
 
 .background_c{
@@ -128,7 +135,7 @@ ul{
 
 .background_c:hover{
 	padding: 2% 0 3% 0;
-	background-color: #e1e1e1;
+	background-color: #f3f3f3;
 	opacity: 0.9;
 }
 
@@ -140,7 +147,7 @@ ul{
 
 .background_d:hover{
 	padding: 2% 0 3% 0;
-	background-color: #e1e1e1;
+	background-color: #f3f3f3;
 	opacity: 0.9;
 }
 
@@ -152,9 +159,10 @@ ul{
 
 .background_e:hover{
 	padding: 2% 0 3% 0;
-	background-color: #e1e1e1;
+	background-color: #f3f3f3;
 	opacity: 0.9;
 }
+
 
 .button_portfolio {
   	padding: 12px;
