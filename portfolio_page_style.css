@@ -57,10 +57,8 @@ ul{
 	padding-left: 10px;
 }
 
-#rectangle {
-	width: 250px;
-	height: 100px;
-	background-color: #ffd633;
+.image{
+	float:left;
 }
 
 
@@ -212,14 +210,12 @@ p{
 
 .intro_text{
 	display: inherit;
-	margin-left: 50%;
-	max-width: 65%;	
 }
 
 .introbackground{
 	rgba(260, 260, 260, 1);
 	padding-top: 4%;
-	padding-bottom: 6%;
+	padding-bottom: 15%;
 }
 
 .project_a{
@@ -303,7 +299,7 @@ p{
 .introbackground{
 	rgba(260, 260, 260, 1);
 	padding-top: .25%;
-	padding-bottom: 6%;
+	padding-bottom: 17%;
 }
 
 .about{
@@ -311,9 +307,7 @@ p{
 	margin: auto;
 }
 
-.intro_text{
-	margin-left: 45%;
-	max-width: 50%;	
+.intro_text{	
 	display: inherit;
 }
 
@@ -425,8 +419,6 @@ p{
 
 .intro_text{
 	display: inherit;
-	margin-left: 46%;
-	max-width: 55%;	
 }
 
 .title{

@@ -101,7 +101,7 @@ li{
 }
 
 .introbackground{
-	background-color: #fff; 
+	background-color: #ffd633; 
 }
 
 ::-moz-selection { 
@@ -359,11 +359,6 @@ p{
 	padding-bottom: 65%;
 }
 
-.intro_text{
-	margin-left: 45%;
-	max-width: 50%;	
-}
-
 .footer p{
 	color: #232323;
 	padding-left: 1%;
@@ -404,11 +399,6 @@ body{
 	margin: auto;
 }
 
-.intro_text{
-	margin-left: 48%;
-	max-width: 50%;	
-}
-
 .aboutbackground{
 	padding-top: 1px;
 	padding-bottom: 45px;
@@ -422,7 +412,6 @@ body{
 }
 
 .intro_text h3{
-	margin-top: 11%;
 	line-height: 1em;
 }
 .intro_text p{
@@ -454,8 +443,6 @@ body{
 }
 
 .intro_text{
-	margin-left: 50%;
-	max-width: 60%;	
 	display: inherit;
 }
 
@@ -500,8 +487,6 @@ body{
 }
 
 .intro_text{
-	margin-left: 46%;
-	max-width: 58%;
 	margin-top: 0%;
 	display: inherit;
 }
