@@ -215,7 +215,7 @@ p{
 .introbackground{
 	rgba(260, 260, 260, 1);
 	padding-top: 4%;
-	padding-bottom: 15%;
+	padding-bottom: 8%;
 }
 
 .project_a{
@@ -299,7 +299,7 @@ p{
 .introbackground{
 	rgba(260, 260, 260, 1);
 	padding-top: .25%;
-	padding-bottom: 17%;
+	padding-bottom: 9%;
 }
 
 .about{
@@ -478,7 +478,7 @@ p{
 @media (min-width: 1021px) {
 
 body{
-	font-size: 17px;
+	font-size: 17.5px;
 }
 
 p{
@@ -494,7 +494,7 @@ p{
 .introbackground{
 	rgba(260, 260, 260, 1);
 	padding-top: .5%;
-	padding-bottom: 15%;
+	padding-bottom: 6%;
 }
 
 .intro-text{
