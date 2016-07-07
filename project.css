@@ -11,14 +11,14 @@ h1{
 	font-weight: 600;
 	margin-top: 0px;
 	margin-bottom:0px;
-	color: #232323;
+	color: #0E001C;
 }
 
 h2{
 	font-family: "acumin-pro-condensed",sans-serif;
 	font-size:1.75em;
 	font-weight: 400;
-	color: #232323;
+	color: #0E001C;
 	margin-top: 3%;
 	margin-bottom: 3%;
 }
@@ -27,7 +27,7 @@ h3{
 	font-family: "acumin-pro-condensed",sans-serif;
 	font-size:1.55em;
 	font-weight: 600;
-	color: #232323;
+	color: #0E001C;
 	margin-top: 3%;
 	margin-bottom: 0%;
 }
@@ -36,7 +36,7 @@ h4{
 	font-family: "acumin-pro-condensed",sans-serif;
 	font-size:1.35em;
 	font-weight: 400;
-	color: #232323;
+	color: #0E001C;
 	margin-top: 1%;
 	margin-bottom: 2%;
 }
@@ -45,7 +45,7 @@ h5{
 	font-family: "acumin-pro-condensed",sans-serif;
 	font-size: 1.15em;
 	font-weight: 400;
-	color: #232323;
+	color: #0E001C;
 	margin-top: 1.5%;
 	margin-bottom: 2%;
 }
@@ -53,7 +53,7 @@ h5{
 p{
 	font-family:'Source Sans Pro', sans-serif;
 	font-size: 1em;
-	color: #232323;
+	color: #0E001C;
 	font-weight: 400;
 	margin-top: 1.5%;
 	margin-bottom: 3%;
@@ -69,7 +69,7 @@ li{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: .9em;
 	font-weight: 300;
-	color: #232323;
+	color: #0E001C;
 	list-style-type: none;
     line-height: 1.5em;
 }
@@ -118,7 +118,7 @@ li{
 }
 
 .nav {
-	background-color:#232323;
+	background-color:#261933;
 	height: 40px;
 }
 
@@ -148,16 +148,16 @@ li{
 .button {
 	margin-top: 22px;
   	padding: 12px;
-  	color: #232323;
+  	color: #261933;
   	background-color: #fff;
   	text-decoration:none;
-  	border: solid #232323 2px;
+  	border: solid #261933 2px;
 }
 
 .button:visited {
 	padding: 12px;
 	text-decoration: none;
-	color: #232323;
+	color: #261933;
 	background-color: #fff;
 	font-weight: 400;
 }
@@ -166,7 +166,7 @@ li{
 	padding: 14px;
 	text-decoration: none;
 	color: #fff;
-	background-color: #232323;
+	background-color: #261933;
 	font-weight: 400;
 }
 
@@ -222,13 +222,13 @@ li{
 a:link{
 	text-decoration: none;
 	font-weight: 600;
-	color: #232323;
+	color: #261933;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
 a:visited {
     text-decoration: none;
-    color: #232323;
+    color: #261933;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -245,7 +245,7 @@ a:active {
 }
 
 .nav {
-	background-color: #232323;
+	background-color: #261933;
 	height: 40px;
  	position: fixed;
  	top: 0;
@@ -281,7 +281,7 @@ a:active {
 }
 
 .about h4{
-	color: #ffd633;
+	color: #ffd333;
 }
 
 .about p{
@@ -302,7 +302,7 @@ a:active {
 }
 
 .fa:hover {
-	color: #ffd633;
+	color: #ffd333;
 }
 
 .footer{

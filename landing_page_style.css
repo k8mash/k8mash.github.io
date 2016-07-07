@@ -11,7 +11,7 @@ h1{
 	font-weight: 500;
 	margin-top: 10%;
 	margin-bottom:-35px;
-	color: #232323;
+	color: #261933;
 	letter-spacing: .5px;
 }
 
@@ -19,7 +19,7 @@ h2{
 	font-family: "acumin-pro-condensed",sans-serif;
 	font-size: 2em;
 	font-weight: 300;
-	color: #232323;
+	color: #261933;
 	margin-bottom: 3px;
 	letter-spacing: .5px;
 }
@@ -29,7 +29,7 @@ h3{
 	font-size:1.75em;
 	font-weight: 300;
 	letter-spacing: .5px;
-	color: #232323;
+	color: #261933;
 	padding-top: 0px;
 }
 
@@ -37,7 +37,7 @@ h4{
 	font-family: "acumin-pro-condensed",sans-serif;
 	font-size:1.5em;
 	font-weight: 300;
-	color: #232323;
+	color: #261933;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding-top: 0px;
@@ -47,7 +47,7 @@ h4{
 p{
 	font-family:'Source Sans Pro', sans-serif;
 	font-size: 1em;
-	color: #232323;
+	color: #261933;
 	font-weight: 300;
 	margin-top: 10px;
 	margin-bottom: 18px;
@@ -58,7 +58,7 @@ li{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1em;
 	font-weight: 300;
-	color: #232323;
+	color: #261933;
 	list-style-type: none;
 }
 
@@ -89,7 +89,7 @@ li{
 
 /*
 .nav {
-	background-color:#232323;
+	background-color:#261933;
 	height: 40px;
 }
 */
@@ -100,17 +100,17 @@ li{
 }
 
 .introbackground{
-	background-color: #ffd633; 
+	background-color: #ffd333; 
 }
 
 ::-moz-selection { 
-background-color: #ffd633; 
-color: #232323;
+background-color: #ffd333; 
+color: #261933;
 }
 
 ::selection {
-background-color: #ffd633;
-color: #232323;
+background-color: #ffd333;
+color: #261933;
 }
 /*
 .introbackground h2{
@@ -185,23 +185,23 @@ color: #232323;
 .button {
 	margin-top: 22px;
   	padding: 12px;
-  	color: #232323;
+  	color: #261933;
   	background-color: #fff;
   	text-decoration:none;
-  	border: solid #232323 2px;
+  	border: solid #261933 2px;
 }
 
 .button:visited {
 	text-decoration: none;
-	color: #232323;
+	color: #261933;
 	background-color: #fff;
 	font-weight: 300;
-	border: solid #232323 2px;
+	border: solid #261933 2px;
 }
 .button:hover{
 	text-decoration: none;
 	color: #fff;
-	background-color: #232323;
+	background-color: #261933;
 	font-weight: 300;
 }
 
@@ -213,13 +213,13 @@ color: #232323;
 a:link{
 	text-decoration: none;
 	font-weight: 600;
-	color: #232323;
+	color: #261933;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
 a:visited {
     text-decoration: none;
-    color: #232323;
+    color: #261933;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -235,12 +235,12 @@ a:active {
 }
 
 .nav{
-	background-color: #ffd633;
+	background-color: #ffd333;
 }
 
 /*
 .nav {
-	background-color: #232323;
+	background-color: #261933;
 	height: 40px;
  	position: fixed;
  	top: 0;
@@ -274,7 +274,7 @@ a:active {
 */
 
 .about h2{
-	color: #232323;
+	color: #261933;
 	letter-spacing: 1px;
 	font-weight: 400;
 	margin-top: 2%;
@@ -290,7 +290,7 @@ a:active {
 }
 
 .about p{
-	color: #232323;
+	color: #261933;
 }
 
 .aboutbackground{
@@ -304,7 +304,7 @@ a:active {
 }
 
 .fa {
-	color: #232323;
+	color: #261933;
 	float: left;
 	margin-top: 0px;
 	margin-right: 25px;
@@ -313,7 +313,7 @@ a:active {
 }
 
 .fa:hover {
-	color: #ffd633;
+	color: #ffd333;
 }
 
 .education h4{
@@ -357,7 +357,7 @@ p{
 }
 
 .footer p{
-	color: #232323;
+	color: #261933;
 	padding-left: 1%;
 }
 

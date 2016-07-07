@@ -10,7 +10,7 @@ ul{
 }
 
 .nav {
-	background-color:#232323;
+	background-color:#261933;
 	height: 40px;
 }
 
@@ -164,25 +164,25 @@ ul{
 
 .button_portfolio {
   	padding: 12px;
-  	color: #232323;
+  	color: #261933;
   	text-decoration:none;
-  	border: solid #232323 2px;
+  	border: solid #261933 2px;
 }
 
 .button_portfolio:visited {
 	padding: 12px;
 	text-decoration: none;
-	color: #232323;
+	color: #261933;
 	background-color: #fff;
 	font-weight: 400; 
-	border: solid #232323 2px;
+	border: solid #261933 2px;
 }
 
 .button_portfolio:hover{
 	padding: 14px;
 	text-decoration: none;
 	color: #fff;
-	background-color: #232323;
+	background-color: #261933;
 	font-weight: 400;
 }
 
