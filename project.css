@@ -19,7 +19,7 @@ h2{
 	font-size:2.097em;
 	font-weight: 400;
 	color: #0E001C;
-	margin-top: 3%;
+	margin-top: 0%;
 	margin-bottom: 3%;
 }
 
@@ -44,7 +44,7 @@ h4{
 h4.callout{
 	font-weight: 400;
 	margin-top: 0%;
-	color: #808080;
+	color: #47434F;
 }
 
 p{
@@ -231,7 +231,7 @@ a:visited {
 a:hover {
 	text-decoration: underline;
     font-family: 'Source Sans Pro', sans-serif;
-    color: #614082;
+    color: #261933;
 }
 
 a:active {
@@ -269,6 +269,23 @@ a:active {
 }
 
 @media (min-width: 625px) and (max-width: 699px){
+
+h1{
+	font-size: 1.75em;
+}
+
+h2{
+	font-size: 1.75em;
+}
+
+h3{
+	font-size: 1.38em;
+}
+
+h4{
+	font-size: 1.15em;
+}
+
 
 .container_project{
 	margin: auto;

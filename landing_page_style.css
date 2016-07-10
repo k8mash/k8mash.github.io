@@ -224,12 +224,12 @@ a:visited {
 }
 
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 a:active {
-	text-decoration: underline;
+	text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
     color:#000;
 }
