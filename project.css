@@ -37,7 +37,7 @@ h4{
 	font-size:1.28em;
 	font-weight: 400;
 	color: #0E001C;
-	margin-top: 3%;
+	margin-top: 0%;
 	margin-bottom: 0%;
 }
 
@@ -341,7 +341,7 @@ a:active {
 
 .container_footer{
 	margin: auto;
-	max-width: 85%;
+	max-width: 80%;
 }
 
 .intro_descrip {
@@ -406,7 +406,7 @@ body{
 
 .container_footer{
 	margin: auto;
-	max-width: 62%;
+	max-width: 67%;
 }
 
 .container_img{
@@ -502,7 +502,7 @@ img.expanded {
 
 .container_footer{
 	margin: auto;
-	max-width: 51%;
+	max-width: 54%;
 }
 
 .container_img{
