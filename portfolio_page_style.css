@@ -387,7 +387,7 @@ p{
 
 
 }
-@media (min-width: 855px) and (max-width: 1020px) {
+@media (min-width: 855px) and (max-width: 1055px) {
 
 
 body{
@@ -399,7 +399,7 @@ p{
 }
 
 .project_width{
-	max-width: 75%;
+	max-width: 67%;
 	margin: auto;
 }
 
@@ -475,7 +475,7 @@ p{
 
 }
 
-@media (min-width: 1021px) {
+@media (min-width: 1056px) {
 
 body{
 	font-size: 17.5px;
@@ -487,7 +487,7 @@ p{
 
 .project_width {
 	display: block;
-	max-width: 57%;
+	max-width: 54%;
 	margin: auto;
 }
 

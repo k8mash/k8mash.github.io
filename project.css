@@ -1,6 +1,6 @@
 
 body{
-	font-size: 15px;
+	font-size: 16px;
 	margin: 0;
 	text-rendering: optimizeLegibility;
 }
@@ -283,11 +283,6 @@ a:active {
 
 @media (min-width: 625px) and (max-width: 699px){
 
-	
-p{
-	margin-bottom: 15px;
-}
-
 .container_project{
 	margin: auto;
 	max-width: 80%;
@@ -339,16 +334,11 @@ p{
 	
 } 
 
-@media (min-width: 700px) and (max-width: 874px){
-
-body{
-	font-size: 15.5px;
-}
-
+@media (min-width: 700px) and (max-width: 854px){
 
 .container_project {
 	margin: auto;
-	max-width: 85%;
+	max-width: 80%;
 	padding-top: 4%;
 	padding-bottom: 4%;
 }
@@ -405,14 +395,14 @@ body{
 }
 }
 
-@media (min-width: 875px) and (max-width: 1174px) {
+@media (min-width: 855px) and (max-width: 1055px) {
 
 body{
-	font-size: 16px;
+	font-size: 17px;
 }
 
 .container_project {
-	max-width: 62%;
+	max-width: 67%;
 	margin: auto;
 	padding-top: 3%;
 	padding-bottom: 2%;
@@ -480,11 +470,11 @@ body{
 }
 }
 
-@media (min-width: 1175px) {
+@media (min-width: 1056px) {
 
 
 body{
-	font-size: 17px;
+	font-size: 187x;
 }
 
 p{
@@ -508,7 +498,7 @@ img.expanded {
 }
 
 .container_project {
-	max-width: 51%;
+	max-width: 54%;
 	margin: auto;
 	padding-top: 2%;
 	padding-bottom: 0%;
