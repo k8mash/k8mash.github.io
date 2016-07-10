@@ -6,7 +6,7 @@ h2{
 ul{
 	list-style: none;
     padding-left: 0;
-    margin-top: 8px;
+    margin-top: 7px;
 }
 
 .nav {
@@ -22,8 +22,9 @@ ul{
 	font-size: 1em;
 	color: #fff;
 	font-weight: 400;
-	letter-spacing: .25px;
+	letter-spacing: .5px;
 	text-transform: uppercase;
+	padding-right: 15px
 }
 
 .nav a:visited{
@@ -53,9 +54,7 @@ ul{
 .nav_right li{
 	display: inline-block;
 	text-align: center;
-	list-style-type: none;
-	padding-left: 10px;
-}
+	list-style-type: none;}
 
 .image{
 	float:left;
@@ -369,13 +368,14 @@ p{
 	color: #fff;
 	font-family: "acumin-pro-condensed",sans-serif;
 	font-weight: 400;
+	padding-right: 15px;
 }
 
 .nav a:hover {
 	text-decoration: underline;
     font-weight: 400;
     font-family: "acumin-pro-condensed",sans-serif;
-    color:#fff;
+    color:#ffd333;
 }
 
 .nav a:active {

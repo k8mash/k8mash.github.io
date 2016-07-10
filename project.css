@@ -63,7 +63,7 @@ ul{
 
 li{
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: .9em;
+	font-size: 1em;
 	font-weight: 400;
 	color: #0E001C;
 	list-style-type: none;
@@ -241,17 +241,6 @@ a:active {
     color:#000;
 }
 
-.nav {
-	background-color: #261933;
-	height: 40px;
- 	position: fixed;
- 	top: 0;
- 	width: 100%;
- 	font-family: "acumin-pro-condensed",sans-serif;
- 	font-weight: 400;
- 	z-index: 289;
-}
-
 .nav a:link{
 	text-decoration: none;
 	color: #fff;
@@ -264,7 +253,7 @@ a:active {
 	text-decoration: underline;
     font-weight: 400;
     font-family: "acumin-pro-condensed",sans-serif;
-    color:#fff;
+    color:#ffd333;
 }
 
 .nav a:active {
@@ -273,6 +262,7 @@ a:active {
     font-family: "acumin-pro-condensed",sans-serif;
     color:#fff;
 }
+
 
 .social_icons{
 	padding-left: 0px
