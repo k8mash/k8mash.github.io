@@ -35,7 +35,7 @@ h3{
 h4{
 	font-family: "acumin-pro-condensed",sans-serif;
 	font-size:1.28em;
-	font-weight: 400;
+	font-weight: 600;
 	color: #0E001C;
 	margin-top: 0%;
 	margin-bottom: 0%;
@@ -45,6 +45,18 @@ h4.callout{
 	font-weight: 400;
 	margin-top: 0%;
 	color: #47434F;
+}
+
+h5{
+	font-family:"acumin-pro-condensed",sans-serif;
+	font-size: 1.15em;
+	color: #0E001C;
+	font-weight: 400;
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+
+
 }
 
 p{
