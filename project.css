@@ -28,7 +28,7 @@ h3{
 	font-size:1.638em;
 	font-weight: 600;
 	color: #0E001C;
-	margin-top: 5%;
+	margin-top: 7%;
 	margin-bottom: 0%;
 }
 
@@ -251,6 +251,7 @@ a:active {
     font-weight: 600;
     font-family: 'Source Sans Pro', sans-serif;
     color:#000;
+    letter-spacing: 1px;
 }
 
 .nav a:link{
@@ -263,7 +264,7 @@ a:active {
 
 .nav a:hover {
 	text-decoration: underline;
-    font-weight: 400;
+    font-weight: 600;
     font-family: "acumin-pro-condensed",sans-serif;
     color:#ffd333;
 }
