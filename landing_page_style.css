@@ -294,7 +294,7 @@ a:active {
 }
 
 .aboutbackground{
-	background-color: #f7f7f7; 
+	background-color: #ffd333; 
 	padding-top: 1px;
 	padding-bottom: 25px;
 }
@@ -313,7 +313,7 @@ a:active {
 }
 
 .fa:hover {
-	color: #ffd333;
+	color: #fff;
 }
 
 .education h4{
@@ -478,7 +478,6 @@ body{
 }
 
 .aboutbackground{
-	background-color: #f7f7f7; 
 	padding-top: 25px;
 	padding-bottom: -10px;
 }
