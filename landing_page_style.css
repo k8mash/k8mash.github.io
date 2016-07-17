@@ -295,8 +295,8 @@ a:active {
 
 .aboutbackground{
 	background-color: #ffd333; 
-	padding-top: 1px;
-	padding-bottom: 25px;
+	padding-top: 25px;
+	padding-bottom: 50px;
 }
 
 .social_icons{
@@ -313,7 +313,7 @@ a:active {
 }
 
 .fa:hover {
-	color: #fff;
+	color: #714b99;
 }
 
 .education h4{
