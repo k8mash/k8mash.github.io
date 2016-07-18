@@ -272,6 +272,9 @@ a:active {
     color:#fff;
 }
 
+.footer{
+	padding: 0% 0% 10% 0%;
+}
 
 .social_icons{
 	padding-left: 0px
@@ -343,6 +346,10 @@ h4{
 	display: block;
 	margin-top: 0px;
 	margin: 15px 5px 15px 0px;
+}
+
+.footer{
+	padding: 0% 0% 10% 0%;
 }
 	
 } 
@@ -569,6 +576,6 @@ img.expanded {
 }
 
 .footer{
-	padding: 0% 0% 14% 0%;
+	padding: 0% 0% 18% 0%;
 }
 }
