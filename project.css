@@ -47,6 +47,15 @@ h4.callout{
 	color: #47434F;
 }
 
+h5{
+	font-family: "acumin-pro-condensed",sans-serif;
+	font-size:1.05em;
+	font-weight: 400;
+	color: #0E001C;
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+
 p{
 	font-family:'Source Sans Pro', sans-serif;
 	font-size: 1em;
