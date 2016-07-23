@@ -356,7 +356,7 @@ h4{
 	margin: auto;
 	max-width: 80%;
 	padding-top: 4%;
-	padding-bottom: 4%;
+	padding-bottom: 1%;
 }
 
 .container_footer{
@@ -420,7 +420,7 @@ body{
 	max-width: 67%;
 	margin: auto;
 	padding-top: 2%;
-	padding-bottom: 2%;
+	padding-bottom: 1%;
 }
 
 .container_footer{
@@ -516,7 +516,7 @@ img.expanded {
 	max-width: 57%;
 	margin: auto;
 	padding-top: 2%;
-	padding-bottom: 2%;
+	padding-bottom: 1%;
 }
 
 .container_footer{
