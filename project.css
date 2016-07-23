@@ -513,7 +513,7 @@ img.expanded {
 }
 
 .container_project {
-	max-width: 57%;
+	max-width: 54%;
 	margin: auto;
 	padding-top: 2%;
 	padding-bottom: 1%;
@@ -521,7 +521,7 @@ img.expanded {
 
 .container_footer{
 	margin: auto;
-	max-width: 57%;
+	max-width: 54%;
 }
 
 .container_img{
