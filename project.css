@@ -224,6 +224,26 @@ li{
 	background-color: #f3f3f3;
 }
 
+a.back-to-top {
+	display: none;
+	width: 45px;
+	height: 45px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 15px;
+	bottom: 20px;
+	background: #261933 url("images/up-arrow.svg") no-repeat center 43%;
+	background-size: 60%;
+	border-radius: 35px;
+}
+
+a:hover.back-to-top{
+	background: #ffd333 url("images/up-arrow.svg") no-repeat center 43%;
+	background-size: 60%;
+}
+
+
 a:link{
 	text-decoration: none;
 	font-weight: 600;
@@ -231,7 +251,7 @@ a:link{
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-a:visited {
+a:visited{
     text-decoration: none;
     color: #261933;
     font-family: 'Source Sans Pro', sans-serif;
@@ -294,6 +314,10 @@ h4{
 	font-size: 1.15em;
 }
 
+a.back-to-top {
+	right: 30px;
+	bottom: 30px;
+}
 
 .container_project{
 	margin: auto;
@@ -351,6 +375,11 @@ h4{
 } 
 
 @media (min-width: 700px) and (max-width: 854px){
+
+a.back-to-top {
+	right: 35px;
+	bottom: 40px;
+}
 
 .container_project {
 	margin: auto;
@@ -414,6 +443,11 @@ h4{
 
 body{
 	font-size: 17px;
+}
+
+a.back-to-top {
+	right: 40px;
+	bottom: 40px;
 }
 
 .container_project {
@@ -510,6 +544,11 @@ img {
 img.expanded {
     max-width: 950px;
     vertical-align: middle;
+}
+
+a.back-to-top {
+	right: 40px;
+	bottom: 40px;
 }
 
 .container_project {
