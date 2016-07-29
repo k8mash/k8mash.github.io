@@ -235,7 +235,6 @@ a.back-to-top {
 	bottom: 20px;
 	background: #261933 url("images/up-arrow.svg") no-repeat center 43%;
 	background-size: 60%;
-	border-radius: 35px;
 }
 
 a:hover.back-to-top{
