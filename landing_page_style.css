@@ -206,8 +206,7 @@ color: #261933;
 }
 
 .resume{
-	padding-top: 20px;
-	padding-bottom: 35px;
+	padding-bottom: 15px;
 }
 
 a:link{
@@ -295,8 +294,8 @@ a:active {
 
 .aboutbackground{
 	background-color: #ffd333; 
-	padding-top: 10px;
-	padding-bottom: 50px;
+	padding-top: 5px;
+	padding-bottom: 30px;
 }
 
 .social_icons{

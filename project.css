@@ -106,7 +106,7 @@ li{
 
 	margin: auto;
 	max-width: 85%;
-	padding-top: 8%;
+	padding-top: 5%;
 	padding-bottom: 2%;
 }
 
@@ -292,7 +292,8 @@ a:active {
 }
 
 .social_icons{
-	padding-left: 0px
+	padding-left: 0px;
+	padding-top: 20px;
 }
 
 @media (min-width: 625px) and (max-width: 699px){
@@ -501,7 +502,7 @@ a.back-to-top {
 }
 
 .aboutbackground{
-	padding-bottom: 6%;
+	padding-bottom: 3%;
 }
 
 .full_image {
