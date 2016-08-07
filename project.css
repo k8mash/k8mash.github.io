@@ -189,6 +189,13 @@ p.list{
     margin: 5px auto 5px auto; 
 }
 
+.full_image_about {
+    max-width: 100%;
+    display: block;
+    margin: 0px auto 0px auto; 
+}
+
+
 .stack_image{
 	max-width: 64%;
 	float: right;
@@ -226,6 +233,10 @@ p.list{
 .footer{
 	padding: .5% 0% 5% 0%;
 	background-color: #f3f3f3;
+}
+
+.about{
+	padding-bottom: 20px;
 }
 
 a.back-to-top {
@@ -297,7 +308,7 @@ a:active {
 
 .social_icons{
 	padding-left: 0px;
-	padding-top: 20px;
+	padding-top: 35px;
 }
 
 @media (min-width: 625px) and (max-width: 699px){
@@ -327,7 +338,6 @@ a.back-to-top {
 	margin: auto;
 	max-width: 80%;
 	padding-top: 6%;
-	padding-bottom: 2%;
 }
 
 
@@ -362,6 +372,10 @@ a.back-to-top {
 	margin-left: 45%;
 	max-width: 50%;	
 	margin-top: -1%;
+}
+
+.about{
+	padding-bottom: 0px;
 }
 
 .split_image{
@@ -417,10 +431,11 @@ a.back-to-top {
 .about{
 	max-width: 100%;
 	margin: auto;
+	padding-bottom: 20px;
 }
 
 .aboutbackground{
-	padding-bottom: 7%;
+	padding-bottom: 4%;
 }
 
 
@@ -492,6 +507,7 @@ a.back-to-top {
 
 .about{
 	max-width: 100%;
+	padding-bottom: 10px;
 }
 
 .introbackground{
@@ -513,6 +529,9 @@ a.back-to-top {
     margin: 15px auto 15px auto; 
 }
 
+.full_image_about {
+    margin: 0px auto 0px auto; 
+}
 
 .split_image{
 	max-width: 49%;
@@ -527,7 +546,7 @@ a.back-to-top {
 
 
 body{
-	font-size: 18.5px;
+	font-size: 18px;
 }
 
 p{
@@ -594,6 +613,11 @@ a.back-to-top {
 	padding-bottom: 3%;
 }
 
+.about{
+	padding-bottom: 20px;
+}
+
+
 .introbackground{
 	padding-top: 20px;
 }
@@ -607,6 +631,11 @@ a.back-to-top {
 .full_image {
 	max-width: 100%;
     margin: 30px auto 15px auto; 
+}
+
+.full_image_about {
+	max-width: 100%;
+    margin: 5px auto 0px auto; 
 }
 
 .split_image{
