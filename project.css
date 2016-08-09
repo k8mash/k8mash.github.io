@@ -184,7 +184,7 @@ p.list{
 }
 
 .full_image {
-    max-width: 100%;
+    max-width: 98%;
     display: block;
     margin: 5px auto 5px auto; 
 }
@@ -386,6 +386,10 @@ a.back-to-top {
 	margin: 15px 5px 15px 0px;
 }
 
+.full_image { 
+	max-width: 95%;
+}
+
 .footer{
 	padding: 0% 0% 10% 0%;
 }
@@ -451,6 +455,10 @@ a.back-to-top {
 	display: block;
 	margin-top: 0px;
 	margin: 15px 5px 15px 0px;
+}
+
+.full_image { 
+	max-width: 95%;
 }
 
 .footer{
@@ -527,6 +535,7 @@ a.back-to-top {
 
 .full_image {
     margin: 15px auto 15px auto; 
+	max-width: 95%;
 }
 
 .full_image_about {
