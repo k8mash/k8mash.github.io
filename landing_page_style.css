@@ -104,11 +104,11 @@ p.about_footer{
 }
 
 .introbackground{
-	background-color: #DFD05B; 
+	background-color: #f9eddb; 
 }
 
 ::-moz-selection { 
-background-color: #DFD05B; 
+background-color: #f9eddb; 
 color: #261933;
 }
 
