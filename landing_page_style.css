@@ -104,11 +104,11 @@ p.about_footer{
 }
 
 .introbackground{
-	background-color: #ffd333; 
+	background-color: #DFD05B; 
 }
 
 ::-moz-selection { 
-background-color: #ffd333; 
+background-color: #DFD05B; 
 color: #261933;
 }
 
@@ -238,7 +238,7 @@ a:active {
 }
 
 .nav{
-	background-color: #ffd333;
+	background-color: #F4B6AA;
 }
 
 /*
@@ -303,7 +303,7 @@ a:active {
 }
 
 .aboutbackground_footer{
-	background-color: #ffd333; 
+	background-color: #fff; 
 	padding-top: 45px;
 	padding-bottom: 15px;
 }
