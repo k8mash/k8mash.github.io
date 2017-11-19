@@ -1,6 +1,6 @@
  AuthUserFile /Documents.htpasswd
 
-AuthName "katemashek.com/google"
+AuthName "google.html"
 
 AuthType Basic
 
