@@ -1,6 +1,9 @@
- AuthUserFile /Documents/.htpasswd
- AuthGroupFile /dev/null
- AuthName "katemashek.com/google"
- AuthType Basic
- require valid-user
- 
+ AuthUserFile /Documents.htpasswd
+
+AuthName "katemashek.com/google"
+
+AuthType Basic
+
+
+
+  require valid-user
