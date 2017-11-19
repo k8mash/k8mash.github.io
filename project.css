@@ -71,6 +71,14 @@ h5{
 	margin-bottom: 0%;
 }
 
+h6{
+	font-family: "Source Sans Pro",sans-serif;
+	font-size:.85em;
+	font-weight: 400;
+	color: #0E001C;
+	margin-top: 0%;
+	margin-bottom: 6%;
+}
 p{
 	font-family:'Source Sans Pro', sans-serif;
 	font-size: 1em;
