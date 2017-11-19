@@ -1,9 +1,0 @@
- AuthUserFile /Documents.htpasswd
-
-AuthName "google.html"
-
-AuthType Basic
-
-
-
-  require valid-user
