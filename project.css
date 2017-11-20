@@ -44,9 +44,10 @@ h4{
 }
 
 h4.callout{
-	font-weight: 400;
-	margin-top: 0%;
-	color: #47434F;
+	font-weight: 600;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	color: #D84F31;
 }
 
 h4.descrip{
